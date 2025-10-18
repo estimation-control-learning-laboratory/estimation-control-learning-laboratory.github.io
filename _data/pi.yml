@@ -1,0 +1,18 @@
+- name: Dr. Ankit Goel
+  photo: pi_picture.jpg
+  info: Assistant Professor, University of Maryland Baltimore County
+  email: ankgoel@umbc.edu
+  github: https://github.com/estimation-control-learning-laboratory
+  researchgate: https://www.researchgate.net/profile/Ankit-Goel-4
+  scholar: https://scholar.google.com/citations?user=-y_ANX0AAAAJ
+  cv: cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2019) Ph.D. Aerospace Engineering, University of Michigan",
+      "(2014) M.S. Aerospace Engineering, University of Michigan",
+      "(2009) B.E. Mechanical Engineering, Delhi College of Engineering"
+    ]
+
+  educationshort:
+    ["(2019) Ph.D. Aerospace Engineering, University of Michigan", "(2014) M.S. Aerospace Engineering, University of Michigan","(2009) B.E. Mechanical Engineering, Delhi College of Engineering"]

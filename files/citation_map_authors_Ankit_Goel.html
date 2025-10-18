@@ -1,0 +1,5497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a8efa1c3a93d23e10176e1ea673ea36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a8efa1c3a93d23e10176e1ea673ea36" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a8efa1c3a93d23e10176e1ea673ea36 = L.map(
+                "map_7a8efa1c3a93d23e10176e1ea673ea36",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9cacf1c738ee186b0bdee935cd32a22c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9cacf1c738ee186b0bdee935cd32a22c.addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var marker_be1502db80401c9dbf2de6ff4aa29de5 = L.marker(
+                [35.6050487, 139.682751],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_25e566e330c587b1eba0ea7fb77035ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c325588a13661048263992a32c8c4879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f706ce87af996f39c5b1d25ee3c2fb3d = $(`<div id="html_f706ce87af996f39c5b1d25ee3c2fb3d" style="width: 100.0%; height: 100.0%;">Tokyo Institute of Technology (A. S. M. Bakibillah & A. S. M. Bakibillah)</div>`)[0];
+                popup_c325588a13661048263992a32c8c4879.setContent(html_f706ce87af996f39c5b1d25ee3c2fb3d);
+            
+        
+
+        marker_be1502db80401c9dbf2de6ff4aa29de5.bindPopup(popup_c325588a13661048263992a32c8c4879)
+        ;
+
+        
+    
+    
+                marker_be1502db80401c9dbf2de6ff4aa29de5.setIcon(icon_25e566e330c587b1eba0ea7fb77035ed);
+            
+    
+            var marker_fcc5dc433e8c7ffa52be2405c7faa347 = L.marker(
+                [42.2942142, -83.7100389],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4611efcd9ee6b9b270a9e7ea45cd7394 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf4cf4d60476a950d7262012ebaef19f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d8f5bc7da848e31e1be53f58a3e85af = $(`<div id="html_1d8f5bc7da848e31e1be53f58a3e85af" style="width: 100.0%; height: 100.0%;">University of Michigan (Aaron Ridley & Aaron Ridley & Aaron Ridley & Aaron Ridley & Aaron Ridley & Aaron Ridley & Aaron Ridley & Aaron Ridley & Aaron Ridley & Amy Cohn & Amy Cohn & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Brian Lai & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dennis S. Bernstein & Dimitra Panagou & Hongyu Zhou & Hongyu Zhou & Ilya Kolmanovsky & Ilya Kolmanovsky & Ilya Kolmanovsky & Ilya Kolmanovsky & Ilya Kolmanovsky & Jacob Vander Schaaf & Jacob Vander Schaaf & James Cutler & James Cutler & Kaiwen Liu & Karthik Duraisamy & Karthik Duraisamy & Karthik Duraisamy & Krzysztof Fidkowski & Mirko Gamba & Mirko Gamba & Nima Mohseni & Nima Mohseni & Nima Mohseni & Nima Mohseni & Nima Mohseni & Rahul Ramesh & Rahul Ramesh & Riley J. Richards & Riley J. Richards & Riley J. Richards & Riley J. Richards & Shashank Verma & Shashank Verma & Shashank Verma & Shashank Verma & Sneha Sanjeevini & Sneha Sanjeevini & Sneha Sanjeevini & Vasileios Tzoumas & Vasileios Tzoumas)</div>`)[0];
+                popup_cf4cf4d60476a950d7262012ebaef19f.setContent(html_1d8f5bc7da848e31e1be53f58a3e85af);
+            
+        
+
+        marker_fcc5dc433e8c7ffa52be2405c7faa347.bindPopup(popup_cf4cf4d60476a950d7262012ebaef19f)
+        ;
+
+        
+    
+    
+                marker_fcc5dc433e8c7ffa52be2405c7faa347.setIcon(icon_4611efcd9ee6b9b270a9e7ea45cd7394);
+            
+    
+            var marker_fa4de1080a8fdbf4e1904fe51f818ca6 = L.marker(
+                [31.6660557, -8.0005263],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_93e9025a4cdd61b8048e0f65f671e1fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01e6bbfb3b94d4a80fb19ae25a7e34b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fe62e624fad16e2ac0721f6a25c9692 = $(`<div id="html_8fe62e624fad16e2ac0721f6a25c9692" style="width: 100.0%; height: 100.0%;">Ibn tofail university (Abdellah LASSIOUI)</div>`)[0];
+                popup_01e6bbfb3b94d4a80fb19ae25a7e34b3.setContent(html_8fe62e624fad16e2ac0721f6a25c9692);
+            
+        
+
+        marker_fa4de1080a8fdbf4e1904fe51f818ca6.bindPopup(popup_01e6bbfb3b94d4a80fb19ae25a7e34b3)
+        ;
+
+        
+    
+    
+                marker_fa4de1080a8fdbf4e1904fe51f818ca6.setIcon(icon_93e9025a4cdd61b8048e0f65f671e1fb);
+            
+    
+            var marker_b18a09be01a448da32604d8a6ac24c7c = L.marker(
+                [59.2604506, 15.201621],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_675beec48affd90460a49c9e98f1f101 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b389bff9bc52f8eb525a329e45555b6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_536bdcefba363bf066a1e7a557a00986 = $(`<div id="html_536bdcefba363bf066a1e7a557a00986" style="width: 100.0%; height: 100.0%;">Epiroc (Abhishek Dhar)</div>`)[0];
+                popup_b389bff9bc52f8eb525a329e45555b6f.setContent(html_536bdcefba363bf066a1e7a557a00986);
+            
+        
+
+        marker_b18a09be01a448da32604d8a6ac24c7c.bindPopup(popup_b389bff9bc52f8eb525a329e45555b6f)
+        ;
+
+        
+    
+    
+                marker_b18a09be01a448da32604d8a6ac24c7c.setIcon(icon_675beec48affd90460a49c9e98f1f101);
+            
+    
+            var marker_2a5189053bbae8b7320b075e846ddf93 = L.marker(
+                [34.1370138, -118.1252883],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_b1e8cd8a9839c79502661fae283552ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95db371c87bba58ea7ed45ce566b3a68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b6f9c441b195be46c29fd924cf14509 = $(`<div id="html_7b6f9c441b195be46c29fd924cf14509" style="width: 100.0%; height: 100.0%;">California Institute of Technology (Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Margaret Trautner)</div>`)[0];
+                popup_95db371c87bba58ea7ed45ce566b3a68.setContent(html_7b6f9c441b195be46c29fd924cf14509);
+            
+        
+
+        marker_2a5189053bbae8b7320b075e846ddf93.bindPopup(popup_95db371c87bba58ea7ed45ce566b3a68)
+        ;
+
+        
+    
+    
+                marker_2a5189053bbae8b7320b075e846ddf93.setIcon(icon_b1e8cd8a9839c79502661fae283552ea);
+            
+    
+            var marker_f1663d9d0c635daedafb28a07bf0a3f4 = L.marker(
+                [34.2015125, -118.1729785],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_00ea7dbcc1f97eeeca7d9a4215c35bd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55a89b96f4bc6f6e7e84df81d6f4b7c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3548ed0cb63a0b7db0bed8bd53e9d517 = $(`<div id="html_3548ed0cb63a0b7db0bed8bd53e9d517" style="width: 100.0%; height: 100.0%;">NASA Jet Propulsion Laboratory (Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Adam L. Bruce & Adam L. Bruce)</div>`)[0];
+                popup_55a89b96f4bc6f6e7e84df81d6f4b7c3.setContent(html_3548ed0cb63a0b7db0bed8bd53e9d517);
+            
+        
+
+        marker_f1663d9d0c635daedafb28a07bf0a3f4.bindPopup(popup_55a89b96f4bc6f6e7e84df81d6f4b7c3)
+        ;
+
+        
+    
+    
+                marker_f1663d9d0c635daedafb28a07bf0a3f4.setIcon(icon_00ea7dbcc1f97eeeca7d9a4215c35bd2);
+            
+    
+            var marker_0e1d3870a5b259b5cd5823bb7d3a695c = L.marker(
+                [43.7818344, 11.2445439],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6171621e3b67e117cab62cbcf0acfac8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c3c3d44b6db6b181fc1c4ef8f2dd59f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3331b1c43540316effcda9a99db6a55a = $(`<div id="html_3331b1c43540316effcda9a99db6a55a" style="width: 100.0%; height: 100.0%;">Controls (Ahmad Ansari & Ahmad Ansari & Ahmad Ansari & Ahmad Ansari & Ahmad Ansari & Ahmad Ansari)</div>`)[0];
+                popup_6c3c3d44b6db6b181fc1c4ef8f2dd59f.setContent(html_3331b1c43540316effcda9a99db6a55a);
+            
+        
+
+        marker_0e1d3870a5b259b5cd5823bb7d3a695c.bindPopup(popup_6c3c3d44b6db6b181fc1c4ef8f2dd59f)
+        ;
+
+        
+    
+    
+                marker_0e1d3870a5b259b5cd5823bb7d3a695c.setIcon(icon_6171621e3b67e117cab62cbcf0acfac8);
+            
+    
+            var marker_85c6f08acadc970d42bddc0c11864725 = L.marker(
+                [-20.767635, -42.8587855],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_65538eca0d18f71e4ffeb4395c4a38ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28c154ace4c625d7795fbb4412a803ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1026d911269ddcbfe69ecdc45bdbc5c = $(`<div id="html_d1026d911269ddcbfe69ecdc45bdbc5c" style="width: 100.0%; height: 100.0%;">Universidade Federal de Viçosa (Alexandre Santos Brandão)</div>`)[0];
+                popup_28c154ace4c625d7795fbb4412a803ac.setContent(html_d1026d911269ddcbfe69ecdc45bdbc5c);
+            
+        
+
+        marker_85c6f08acadc970d42bddc0c11864725.bindPopup(popup_28c154ace4c625d7795fbb4412a803ac)
+        ;
+
+        
+    
+    
+                marker_85c6f08acadc970d42bddc0c11864725.setIcon(icon_65538eca0d18f71e4ffeb4395c4a38ad);
+            
+    
+            var marker_eb7a68d6b95335f01ed2a114837ab2a8 = L.marker(
+                [37.8762248, 32.4313675],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_2a67d5345948eacd9e3b53f0a159d10b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9000d1b32f0e7a55d5355e5e172e5318 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77fde9697aca30af8ad7b1bb26ec8531 = $(`<div id="html_77fde9697aca30af8ad7b1bb26ec8531" style="width: 100.0%; height: 100.0%;">Necmettin Erbakan University (Ali Tahir Karasahin)</div>`)[0];
+                popup_9000d1b32f0e7a55d5355e5e172e5318.setContent(html_77fde9697aca30af8ad7b1bb26ec8531);
+            
+        
+
+        marker_eb7a68d6b95335f01ed2a114837ab2a8.bindPopup(popup_9000d1b32f0e7a55d5355e5e172e5318)
+        ;
+
+        
+    
+    
+                marker_eb7a68d6b95335f01ed2a114837ab2a8.setIcon(icon_2a67d5345948eacd9e3b53f0a159d10b);
+            
+    
+            var marker_35cc4866220407fcd39d0869c12dfb1c = L.marker(
+                [33.5884756, -102.4275087],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_f6efd657296f1f4ea85c8d11ffdd23d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b99ac83b4f4acd784f8849f4c149cf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d8b45b62a6dd5822adbb3d3b31b52d7 = $(`<div id="html_1d8b45b62a6dd5822adbb3d3b31b52d7" style="width: 100.0%; height: 100.0%;">Automation (Anchita Dey)</div>`)[0];
+                popup_1b99ac83b4f4acd784f8849f4c149cf8.setContent(html_1d8b45b62a6dd5822adbb3d3b31b52d7);
+            
+        
+
+        marker_35cc4866220407fcd39d0869c12dfb1c.bindPopup(popup_1b99ac83b4f4acd784f8849f4c149cf8)
+        ;
+
+        
+    
+    
+                marker_35cc4866220407fcd39d0869c12dfb1c.setIcon(icon_f6efd657296f1f4ea85c8d11ffdd23d2);
+            
+    
+            var marker_041325016541ebc20ec2f51ae252218e = L.marker(
+                [10.6125802, -74.164337],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4c023bcdc8921861625fc736033afec8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8727f39c8db1f15709e3cfc47739dac8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_089f735bbae49a77222d0535c4628f1b = $(`<div id="html_089f735bbae49a77222d0535c4628f1b" style="width: 100.0%; height: 100.0%;">Control (Anchita Dey)</div>`)[0];
+                popup_8727f39c8db1f15709e3cfc47739dac8.setContent(html_089f735bbae49a77222d0535c4628f1b);
+            
+        
+
+        marker_041325016541ebc20ec2f51ae252218e.bindPopup(popup_8727f39c8db1f15709e3cfc47739dac8)
+        ;
+
+        
+    
+    
+                marker_041325016541ebc20ec2f51ae252218e.setIcon(icon_4c023bcdc8921861625fc736033afec8);
+            
+    
+            var marker_447ee83e56c0fcc24c8121be70d94b9a = L.marker(
+                [28.5449971, 77.1891506],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_81c03dd56616645c16eab806ed9da017 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e63ab469e6f50010f394cd237fd45743 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b25438a05bdb34d00a89df7260e19a = $(`<div id="html_f1b25438a05bdb34d00a89df7260e19a" style="width: 100.0%; height: 100.0%;">IIT Delhi (Anchita Dey)</div>`)[0];
+                popup_e63ab469e6f50010f394cd237fd45743.setContent(html_f1b25438a05bdb34d00a89df7260e19a);
+            
+        
+
+        marker_447ee83e56c0fcc24c8121be70d94b9a.bindPopup(popup_e63ab469e6f50010f394cd237fd45743)
+        ;
+
+        
+    
+    
+                marker_447ee83e56c0fcc24c8121be70d94b9a.setIcon(icon_81c03dd56616645c16eab806ed9da017);
+            
+    
+            var marker_a9bfe9e958a02cfb600f678cbfa38b58 = L.marker(
+                [48.7133801, 9.212073],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_c0bdf74c661e0103d5bed4f98487f92e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3048f7faf0cd2677ae656ebbfd64beeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9baca3e1771a4d36b4cc55167437825f = $(`<div id="html_9baca3e1771a4d36b4cc55167437825f" style="width: 100.0%; height: 100.0%;">University of Stuttgart (Andrea Iannelli & Bowen Song & Julian Berberich)</div>`)[0];
+                popup_3048f7faf0cd2677ae656ebbfd64beeb.setContent(html_9baca3e1771a4d36b4cc55167437825f);
+            
+        
+
+        marker_a9bfe9e958a02cfb600f678cbfa38b58.bindPopup(popup_3048f7faf0cd2677ae656ebbfd64beeb)
+        ;
+
+        
+    
+    
+                marker_a9bfe9e958a02cfb600f678cbfa38b58.setIcon(icon_c0bdf74c661e0103d5bed4f98487f92e);
+            
+    
+            var marker_648d252a12660d523ed84ee871e001cd = L.marker(
+                [39.252377, -76.7089181],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_925a6b89c419653e773cf0f08f07fbed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3cf7d899c2b4e76e6cca7cbb5db39f53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_265bd4379f23e7dbc587cd31e0c63007 = $(`<div id="html_265bd4379f23e7dbc587cd31e0c63007" style="width: 100.0%; height: 100.0%;">UMBC (Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel & Ankit Goel)</div>`)[0];
+                popup_3cf7d899c2b4e76e6cca7cbb5db39f53.setContent(html_265bd4379f23e7dbc587cd31e0c63007);
+            
+        
+
+        marker_648d252a12660d523ed84ee871e001cd.bindPopup(popup_3cf7d899c2b4e76e6cca7cbb5db39f53)
+        ;
+
+        
+    
+    
+                marker_648d252a12660d523ed84ee871e001cd.setIcon(icon_925a6b89c419653e773cf0f08f07fbed);
+            
+    
+            var marker_bd5941ae992c803b04c4905eaf329c0d = L.marker(
+                [42.3582529, -71.0966272],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_3161881754cdd1534380b09b3b964907 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0d71d882d21cf6ca701b523314293b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daa8af80b729070e14d533a94a793bc9 = $(`<div id="html_daa8af80b729070e14d533a94a793bc9" style="width: 100.0%; height: 100.0%;">MIT (Anuradha Annaswamy & Anuradha Annaswamy & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela)</div>`)[0];
+                popup_a0d71d882d21cf6ca701b523314293b1.setContent(html_daa8af80b729070e14d533a94a793bc9);
+            
+        
+
+        marker_bd5941ae992c803b04c4905eaf329c0d.bindPopup(popup_a0d71d882d21cf6ca701b523314293b1)
+        ;
+
+        
+    
+    
+                marker_bd5941ae992c803b04c4905eaf329c0d.setIcon(icon_3161881754cdd1534380b09b3b964907);
+            
+    
+            var marker_3ca6a88126e2de0f25ae1fc906046f56 = L.marker(
+                [33.5419806, -7.6596215],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_84f1e4db294a6f28309ec7f0ee17a309 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3a482d0603dab29ff693143eb62e309 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_848f2b00a1f901f0c84ec0657b5ac463 = $(`<div id="html_848f2b00a1f901f0c84ec0657b5ac463" style="width: 100.0%; height: 100.0%;">Hassan II University of Casablanca, Morocco (Aziz RACHID)</div>`)[0];
+                popup_b3a482d0603dab29ff693143eb62e309.setContent(html_848f2b00a1f901f0c84ec0657b5ac463);
+            
+        
+
+        marker_3ca6a88126e2de0f25ae1fc906046f56.bindPopup(popup_b3a482d0603dab29ff693143eb62e309)
+        ;
+
+        
+    
+    
+                marker_3ca6a88126e2de0f25ae1fc906046f56.setIcon(icon_84f1e4db294a6f28309ec7f0ee17a309);
+            
+    
+            var marker_13d22323b2ce94733856fa6b65bc2700 = L.marker(
+                [45.741589, 126.6255626],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_a66968ee4efb5adc4ec0f9273a777b17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7f2789f7afbb94484ebc966006e65a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cacec3d4d183c9950f5ca1b08ff9afcb = $(`<div id="html_cacec3d4d183c9950f5ca1b08ff9afcb" style="width: 100.0%; height: 100.0%;">Harbin Institute of Technology (Bao Wen 鲍文 & Jiang Qin & Juntao Chang & Juntao Chang & Silong Zhang)</div>`)[0];
+                popup_d7f2789f7afbb94484ebc966006e65a3.setContent(html_cacec3d4d183c9950f5ca1b08ff9afcb);
+            
+        
+
+        marker_13d22323b2ce94733856fa6b65bc2700.bindPopup(popup_d7f2789f7afbb94484ebc966006e65a3)
+        ;
+
+        
+    
+    
+                marker_13d22323b2ce94733856fa6b65bc2700.setIcon(icon_a66968ee4efb5adc4ec0f9273a777b17);
+            
+    
+            var marker_754d5668a4e67fa7abe44dabef05aecb = L.marker(
+                [40.0022905, 116.320963],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_08f8dd4884f6fd566dc53d65adbe6a66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f14234e193e952bd1efbc059e77f2eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fa5720c5bb7c745246cecb51d881c49 = $(`<div id="html_4fa5720c5bb7c745246cecb51d881c49" style="width: 100.0%; height: 100.0%;">Tsinghua University (Chao SHANG / 尚超)</div>`)[0];
+                popup_9f14234e193e952bd1efbc059e77f2eb.setContent(html_4fa5720c5bb7c745246cecb51d881c49);
+            
+        
+
+        marker_754d5668a4e67fa7abe44dabef05aecb.bindPopup(popup_9f14234e193e952bd1efbc059e77f2eb)
+        ;
+
+        
+    
+    
+                marker_754d5668a4e67fa7abe44dabef05aecb.setIcon(icon_08f8dd4884f6fd566dc53d65adbe6a66);
+            
+    
+            var marker_99fd142bbd8674cb1ba93f9648607a14 = L.marker(
+                [38.9495915, -77.386141],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_d2c31a3857fa72a1c4742446087a4493 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d84f0a1bf94fe0fd19a62a7d0ff731b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6704c8d84c581523d9415ee7d834d464 = $(`<div id="html_6704c8d84c581523d9415ee7d834d464" style="width: 100.0%; height: 100.0%;">Astronautics (Chao-Chung Peng & Onder Turan)</div>`)[0];
+                popup_d84f0a1bf94fe0fd19a62a7d0ff731b8.setContent(html_6704c8d84c581523d9415ee7d834d464);
+            
+        
+
+        marker_99fd142bbd8674cb1ba93f9648607a14.bindPopup(popup_d84f0a1bf94fe0fd19a62a7d0ff731b8)
+        ;
+
+        
+    
+    
+                marker_99fd142bbd8674cb1ba93f9648607a14.setIcon(icon_d2c31a3857fa72a1c4742446087a4493);
+            
+    
+            var marker_a6b4a9e7dbb520e3ee736f953cd859fb = L.marker(
+                [22.999099, 120.2162295],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_d033b035e7595a3846af1ab36cc66780 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e976c8cc63ab572807010fcde07e72f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3a58da4ed36ff1b3edc813bb2319960 = $(`<div id="html_c3a58da4ed36ff1b3edc813bb2319960" style="width: 100.0%; height: 100.0%;">National Cheng Kung University (Chao-Chung Peng)</div>`)[0];
+                popup_8e976c8cc63ab572807010fcde07e72f.setContent(html_c3a58da4ed36ff1b3edc813bb2319960);
+            
+        
+
+        marker_a6b4a9e7dbb520e3ee736f953cd859fb.bindPopup(popup_8e976c8cc63ab572807010fcde07e72f)
+        ;
+
+        
+    
+    
+                marker_a6b4a9e7dbb520e3ee736f953cd859fb.setIcon(icon_d033b035e7595a3846af1ab36cc66780);
+            
+    
+            var marker_99cdca52b8a7212532f5c680c11339fe = L.marker(
+                [39.981188, -75.1562828],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_d3cc16c1e9af3efd74277324977ce671 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9979c767b0e1dd735e09a3f0ef207158 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15a3ce69b7a9aa9f4ea4a4933a26edcd = $(`<div id="html_15a3ce69b7a9aa9f4ea4a4933a26edcd" style="width: 100.0%; height: 100.0%;">Temple University (Damoon Soudbakhsh)</div>`)[0];
+                popup_9979c767b0e1dd735e09a3f0ef207158.setContent(html_15a3ce69b7a9aa9f4ea4a4933a26edcd);
+            
+        
+
+        marker_99cdca52b8a7212532f5c680c11339fe.bindPopup(popup_9979c767b0e1dd735e09a3f0ef207158)
+        ;
+
+        
+    
+    
+                marker_99cdca52b8a7212532f5c680c11339fe.setIcon(icon_d3cc16c1e9af3efd74277324977ce671);
+            
+    
+            var marker_3e45963b23d03bdbf8222b5fc4977557 = L.marker(
+                [35.8567134, 128.4849417],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_0ef7a9440f5f8705dc55e5872c6fbf31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10f351af769fd0471515dd053eb083d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edb1931780987c1e2d63c43c9a1410ed = $(`<div id="html_edb1931780987c1e2d63c43c9a1410ed" style="width: 100.0%; height: 100.0%;">Keimyung university (Davoud Hosseinzadeh)</div>`)[0];
+                popup_10f351af769fd0471515dd053eb083d5.setContent(html_edb1931780987c1e2d63c43c9a1410ed);
+            
+        
+
+        marker_3e45963b23d03bdbf8222b5fc4977557.bindPopup(popup_10f351af769fd0471515dd053eb083d5)
+        ;
+
+        
+    
+    
+                marker_3e45963b23d03bdbf8222b5fc4977557.setIcon(icon_0ef7a9440f5f8705dc55e5872c6fbf31);
+            
+    
+            var marker_1cedcca852ce04dde9c766bdbb583070 = L.marker(
+                [51.4989595, -0.1756407],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_821cbf7deb802a066e5cdb9512d00a48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_279c7981b4d290108174ad62d12d2dec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_304f858f3c23b5b60206f622af78674e = $(`<div id="html_304f858f3c23b5b60206f622af78674e" style="width: 100.0%; height: 100.0%;">Imperial College London (Di Liu & Di Liu & Di Liu)</div>`)[0];
+                popup_279c7981b4d290108174ad62d12d2dec.setContent(html_304f858f3c23b5b60206f622af78674e);
+            
+        
+
+        marker_1cedcca852ce04dde9c766bdbb583070.bindPopup(popup_279c7981b4d290108174ad62d12d2dec)
+        ;
+
+        
+    
+    
+                marker_1cedcca852ce04dde9c766bdbb583070.setIcon(icon_821cbf7deb802a066e5cdb9512d00a48);
+            
+    
+            var marker_160c397c38ca608fdb459f8681c7e0da = L.marker(
+                [12.9941561, 80.2366826],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_34490897174a699ea1715b16d4d5c397 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa5e80a51c1d9b371b1483d95c25d5c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b881294db179807ddaf3845427c1207 = $(`<div id="html_6b881294db179807ddaf3845427c1207" style="width: 100.0%; height: 100.0%;">Indian Institute of Technology Madras (Diviaharshavardini R C)</div>`)[0];
+                popup_aa5e80a51c1d9b371b1483d95c25d5c7.setContent(html_6b881294db179807ddaf3845427c1207);
+            
+        
+
+        marker_160c397c38ca608fdb459f8681c7e0da.bindPopup(popup_aa5e80a51c1d9b371b1483d95c25d5c7)
+        ;
+
+        
+    
+    
+                marker_160c397c38ca608fdb459f8681c7e0da.setIcon(icon_34490897174a699ea1715b16d4d5c397);
+            
+    
+            var marker_4fb515c664cba1102adc88797300a577 = L.marker(
+                [59.9567751, 30.308711],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_800f90ff66677bb83d4a0cc78c7b2538 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b2cba3fc1b31462ebc306ce8e4da0ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b344332689432f126badf7c1cc5c8578 = $(`<div id="html_b344332689432f126badf7c1cc5c8578" style="width: 100.0%; height: 100.0%;">ITMO University (Dmitry Gerasimov)</div>`)[0];
+                popup_5b2cba3fc1b31462ebc306ce8e4da0ac.setContent(html_b344332689432f126badf7c1cc5c8578);
+            
+        
+
+        marker_4fb515c664cba1102adc88797300a577.bindPopup(popup_5b2cba3fc1b31462ebc306ce8e4da0ac)
+        ;
+
+        
+    
+    
+                marker_4fb515c664cba1102adc88797300a577.setIcon(icon_800f90ff66677bb83d4a0cc78c7b2538);
+            
+    
+            var marker_aeca7d761be6176e8e4bd969f6e50694 = L.marker(
+                [52.2216394, 21.0073798],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_defc48367546da60c278913747510eaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5658609b593adb69ca6f2cde77f39d3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4c2b5b0208c1cc403af18069aa80c00 = $(`<div id="html_d4c2b5b0208c1cc403af18069aa80c00" style="width: 100.0%; height: 100.0%;">Warsaw University of Technology (Dominik Sierociuk & Michal Macias & Wiktor Malesza)</div>`)[0];
+                popup_5658609b593adb69ca6f2cde77f39d3a.setContent(html_d4c2b5b0208c1cc403af18069aa80c00);
+            
+        
+
+        marker_aeca7d761be6176e8e4bd969f6e50694.bindPopup(popup_5658609b593adb69ca6f2cde77f39d3a)
+        ;
+
+        
+    
+    
+                marker_aeca7d761be6176e8e4bd969f6e50694.setIcon(icon_defc48367546da60c278913747510eaf);
+            
+    
+            var marker_b5e1804698afda126eeb00b5dde7c83a = L.marker(
+                [52.6102284, -1.0837221],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_30e49e7d1831c6de7b110a52f57b95f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c96d6f304599adf0d4c8fa27a9a8a54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c5e1ab96cecbce1758b7aad8f335456 = $(`<div id="html_9c5e1ab96cecbce1758b7aad8f335456" style="width: 100.0%; height: 100.0%;">University of Leicester (Dr. Bing Ji)</div>`)[0];
+                popup_5c96d6f304599adf0d4c8fa27a9a8a54.setContent(html_9c5e1ab96cecbce1758b7aad8f335456);
+            
+        
+
+        marker_b5e1804698afda126eeb00b5dde7c83a.bindPopup(popup_5c96d6f304599adf0d4c8fa27a9a8a54)
+        ;
+
+        
+    
+    
+                marker_b5e1804698afda126eeb00b5dde7c83a.setIcon(icon_30e49e7d1831c6de7b110a52f57b95f2);
+            
+    
+            var marker_63491ff3764fcea75dd589efdd4e1f62 = L.marker(
+                [40.0741627, -83.079119],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_97779299d637b6c10698846d950cfa92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a383940487f92306d43d005507a0469f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e361a5541913f1706de58c3d8c8fc33c = $(`<div id="html_e361a5541913f1706de58c3d8c8fc33c" style="width: 100.0%; height: 100.0%;">Aerospace Research Center (Ege C. ALTUNKAYA)</div>`)[0];
+                popup_a383940487f92306d43d005507a0469f.setContent(html_e361a5541913f1706de58c3d8c8fc33c);
+            
+        
+
+        marker_63491ff3764fcea75dd589efdd4e1f62.bindPopup(popup_a383940487f92306d43d005507a0469f)
+        ;
+
+        
+    
+    
+                marker_63491ff3764fcea75dd589efdd4e1f62.setIcon(icon_97779299d637b6c10698846d950cfa92);
+            
+    
+            var marker_a37523addff5ce807a73f3c1e734d280 = L.marker(
+                [41.1050465, 29.0263114],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_8973f1a08b90ce3d5f39a1e571028745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c42b3234f32c61892d4fcbeaa082d65d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c37d3be2ae0d4604da8a6b630f636223 = $(`<div id="html_c37d3be2ae0d4604da8a6b630f636223" style="width: 100.0%; height: 100.0%;">Istanbul Technical University (Ege C. ALTUNKAYA)</div>`)[0];
+                popup_c42b3234f32c61892d4fcbeaa082d65d.setContent(html_c37d3be2ae0d4604da8a6b630f636223);
+            
+        
+
+        marker_a37523addff5ce807a73f3c1e734d280.bindPopup(popup_c42b3234f32c61892d4fcbeaa082d65d)
+        ;
+
+        
+    
+    
+                marker_a37523addff5ce807a73f3c1e734d280.setIcon(icon_8973f1a08b90ce3d5f39a1e571028745);
+            
+    
+            var marker_5974c89a8095445110546b370592b905 = L.marker(
+                [35.7718497, -78.674087],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_ca0d3f73c02b67edb5aec8ca7eb287ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_803e764cde737b83ccd85b7df5ff333f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce6f6afcb0142398fc1cbd424cf9b34f = $(`<div id="html_ce6f6afcb0142398fc1cbd424cf9b34f" style="width: 100.0%; height: 100.0%;">North Carolina State University (Emma Cavanaugh)</div>`)[0];
+                popup_803e764cde737b83ccd85b7df5ff333f.setContent(html_ce6f6afcb0142398fc1cbd424cf9b34f);
+            
+        
+
+        marker_5974c89a8095445110546b370592b905.bindPopup(popup_803e764cde737b83ccd85b7df5ff333f)
+        ;
+
+        
+    
+    
+                marker_5974c89a8095445110546b370592b905.setIcon(icon_ca0d3f73c02b67edb5aec8ca7eb287ce);
+            
+    
+            var marker_d9a25d9b84e4314c60c836e0e58d28d6 = L.marker(
+                [35.055669, -106.602469],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_dde66fa46867fd21996ef7f062922b30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_999dac87b24b5cbbfa1925ec23bf0729 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dce3430e37e439df0db608771d0f7c4 = $(`<div id="html_6dce3430e37e439df0db608771d0f7c4" style="width: 100.0%; height: 100.0%;">Air Force Research Laboratory (Erik Blasch & Erik Blasch & Erik Blasch & Erik Blasch & Erik Blasch & Khanh D. Pham & Muralidhar Rangaswamy)</div>`)[0];
+                popup_999dac87b24b5cbbfa1925ec23bf0729.setContent(html_6dce3430e37e439df0db608771d0f7c4);
+            
+        
+
+        marker_d9a25d9b84e4314c60c836e0e58d28d6.bindPopup(popup_999dac87b24b5cbbfa1925ec23bf0729)
+        ;
+
+        
+    
+    
+                marker_d9a25d9b84e4314c60c836e0e58d28d6.setIcon(icon_dde66fa46867fd21996ef7f062922b30);
+            
+    
+            var marker_dc57b3dc417bbc199dc61edbd3436765 = L.marker(
+                [33.6389154, -117.7401798],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_5c58f358523423f5ed6d4072741248de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1848a84f3d07a0bff170fc7d510282b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4d32617845a914b84631ea402648114 = $(`<div id="html_e4d32617845a914b84631ea402648114" style="width: 100.0%; height: 100.0%;">Hyundai America Technical Center (Erol Dogan Sumer)</div>`)[0];
+                popup_1848a84f3d07a0bff170fc7d510282b4.setContent(html_e4d32617845a914b84631ea402648114);
+            
+        
+
+        marker_dc57b3dc417bbc199dc61edbd3436765.bindPopup(popup_1848a84f3d07a0bff170fc7d510282b4)
+        ;
+
+        
+    
+    
+                marker_dc57b3dc417bbc199dc61edbd3436765.setIcon(icon_5c58f358523423f5ed6d4072741248de);
+            
+    
+            var marker_9df3b055d24fa058acf6e49dde563caa = L.marker(
+                [49.1018534, 8.4331202],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_87ea6bab0c2b321ce39dcd9a52ec9460 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41248a3ee9b557ee097cf9c88bf5e51b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_881b7eb8fc101fcbd66f93735d7c8e6f = $(`<div id="html_881b7eb8fc101fcbd66f93735d7c8e6f" style="width: 100.0%; height: 100.0%;">Karlsruhe Institute of Technology (Fabian Krüger)</div>`)[0];
+                popup_41248a3ee9b557ee097cf9c88bf5e51b.setContent(html_881b7eb8fc101fcbd66f93735d7c8e6f);
+            
+        
+
+        marker_9df3b055d24fa058acf6e49dde563caa.bindPopup(popup_41248a3ee9b557ee097cf9c88bf5e51b)
+        ;
+
+        
+    
+    
+                marker_9df3b055d24fa058acf6e49dde563caa.setIcon(icon_87ea6bab0c2b321ce39dcd9a52ec9460);
+            
+    
+            var marker_4825c5fba765e176f8e40a3b5c46fcc6 = L.marker(
+                [-7.9454193, 112.614898],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_70cfed15ed2c959824c8251048d00632 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bce2d499e5ed263d7233f0178ec4db78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aba1f112b9d388bab37c2d5570fa6f5 = $(`<div id="html_9aba1f112b9d388bab37c2d5570fa6f5" style="width: 100.0%; height: 100.0%;">Politeknik Negeri Malang (Fitri Fitri & Fitri Fitri & SUNGKONO blank & SUNGKONO blank & Sidik Nurcahyo & Sidik Nurcahyo)</div>`)[0];
+                popup_bce2d499e5ed263d7233f0178ec4db78.setContent(html_9aba1f112b9d388bab37c2d5570fa6f5);
+            
+        
+
+        marker_4825c5fba765e176f8e40a3b5c46fcc6.bindPopup(popup_bce2d499e5ed263d7233f0178ec4db78)
+        ;
+
+        
+    
+    
+                marker_4825c5fba765e176f8e40a3b5c46fcc6.setIcon(icon_70cfed15ed2c959824c8251048d00632);
+            
+    
+            var marker_d6e8280ff3eb2097d5ccbf9200fa6324 = L.marker(
+                [40.0070061, -105.2664423],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_562af45a546a48389ef6daa25729b859 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b14acb298d0109737abd06c9c2ae2237 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bbb4132a13db901ab10d482329d3a08 = $(`<div id="html_0bbb4132a13db901ab10d482329d3a08" style="width: 100.0%; height: 100.0%;">University of Colorado Boulder (Garima Malhotra)</div>`)[0];
+                popup_b14acb298d0109737abd06c9c2ae2237.setContent(html_0bbb4132a13db901ab10d482329d3a08);
+            
+        
+
+        marker_d6e8280ff3eb2097d5ccbf9200fa6324.bindPopup(popup_b14acb298d0109737abd06c9c2ae2237)
+        ;
+
+        
+    
+    
+                marker_d6e8280ff3eb2097d5ccbf9200fa6324.setIcon(icon_562af45a546a48389ef6daa25729b859);
+            
+    
+            var marker_872d0adb14814cf73a81ae81689cf01e = L.marker(
+                [12.9491126, 80.1409786],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_12442b268a90368891f28fb5c93a081f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3f5723ac4b10d166af4d5dad03b8612 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e568a2d68eb9045f9cc54b9df07ef97 = $(`<div id="html_5e568a2d68eb9045f9cc54b9df07ef97" style="width: 100.0%; height: 100.0%;">Mechatronics (Georg Schitter)</div>`)[0];
+                popup_d3f5723ac4b10d166af4d5dad03b8612.setContent(html_5e568a2d68eb9045f9cc54b9df07ef97);
+            
+        
+
+        marker_872d0adb14814cf73a81ae81689cf01e.bindPopup(popup_d3f5723ac4b10d166af4d5dad03b8612)
+        ;
+
+        
+    
+    
+                marker_872d0adb14814cf73a81ae81689cf01e.setIcon(icon_12442b268a90368891f28fb5c93a081f);
+            
+    
+            var marker_c5f2ddd685c0d49456bec7bb1be96b73 = L.marker(
+                [48.1985397, 16.3698617],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_b80f2045dae378bfcfac5e93e4f6d065 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2c3f3e92c776890dd19ea9fd7575330 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_167bccce0a17ac429ba35b2a9d977c77 = $(`<div id="html_167bccce0a17ac429ba35b2a9d977c77" style="width: 100.0%; height: 100.0%;">TU Wien (Georg Schitter)</div>`)[0];
+                popup_d2c3f3e92c776890dd19ea9fd7575330.setContent(html_167bccce0a17ac429ba35b2a9d977c77);
+            
+        
+
+        marker_c5f2ddd685c0d49456bec7bb1be96b73.bindPopup(popup_d2c3f3e92c776890dd19ea9fd7575330)
+        ;
+
+        
+    
+    
+                marker_c5f2ddd685c0d49456bec7bb1be96b73.setIcon(icon_b80f2045dae378bfcfac5e93e4f6d065);
+            
+    
+            var marker_6513ade3ca844a61c65d051927c73ad4 = L.marker(
+                [50.6174948, 7.1295076],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_bf22509af81450c226cb08c7c34ba096 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d5bfddd686520b21a4e170fde562ed3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d596fd14030fdf1fe674e150766adb1 = $(`<div id="html_7d596fd14030fdf1fe674e150766adb1" style="width: 100.0%; height: 100.0%;">Fraunhofer FHR (Giorgio Magalhães)</div>`)[0];
+                popup_1d5bfddd686520b21a4e170fde562ed3.setContent(html_7d596fd14030fdf1fe674e150766adb1);
+            
+        
+
+        marker_6513ade3ca844a61c65d051927c73ad4.bindPopup(popup_1d5bfddd686520b21a4e170fde562ed3)
+        ;
+
+        
+    
+    
+                marker_6513ade3ca844a61c65d051927c73ad4.setIcon(icon_bf22509af81450c226cb08c7c34ba096);
+            
+    
+            var marker_a8ab7e1c3ad6c38d61c3fbff97403ab4 = L.marker(
+                [45.0636974, 7.6575263],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_86346a0e9f830dbcbf15a8b7b1d5414c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_612fe62cc5d54bea4e90a081cfd83623 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca5ca1d2dc0ffdae884b10051473bc2d = $(`<div id="html_ca5ca1d2dc0ffdae884b10051473bc2d" style="width: 100.0%; height: 100.0%;">Politecnico di Torino (Giulia Fracastoro & Giuseppe Carlo Calafiore & Lorenzo Zino)</div>`)[0];
+                popup_612fe62cc5d54bea4e90a081cfd83623.setContent(html_ca5ca1d2dc0ffdae884b10051473bc2d);
+            
+        
+
+        marker_a8ab7e1c3ad6c38d61c3fbff97403ab4.bindPopup(popup_612fe62cc5d54bea4e90a081cfd83623)
+        ;
+
+        
+    
+    
+                marker_a8ab7e1c3ad6c38d61c3fbff97403ab4.setIcon(icon_86346a0e9f830dbcbf15a8b7b1d5414c);
+            
+    
+            var marker_cce5175e2a8a756f7598e6162ddc329d = L.marker(
+                [48.848139, 2.3043031],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_30756fec6a803ce26e89faf2b48fad6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75286c3c280adc7484f1f48deaa4bdbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d14921359fc1ad6d3cea14ef9c10ecd7 = $(`<div id="html_d14921359fc1ad6d3cea14ef9c10ecd7" style="width: 100.0%; height: 100.0%;">European Space Agency (Günther March)</div>`)[0];
+                popup_75286c3c280adc7484f1f48deaa4bdbf.setContent(html_d14921359fc1ad6d3cea14ef9c10ecd7);
+            
+        
+
+        marker_cce5175e2a8a756f7598e6162ddc329d.bindPopup(popup_75286c3c280adc7484f1f48deaa4bdbf)
+        ;
+
+        
+    
+    
+                marker_cce5175e2a8a756f7598e6162ddc329d.setIcon(icon_30756fec6a803ce26e89faf2b48fad6c);
+            
+    
+            var marker_d32b2ffc949d855ac89c0513221ab845 = L.marker(
+                [31.6660557, -8.0005263],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_780931650a3daee420c7cae85af318ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_006c8f81d3c266f2d6aae4e387038dfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c47fa003a0a74e73f49ef0ec9d08117 = $(`<div id="html_6c47fa003a0a74e73f49ef0ec9d08117" style="width: 100.0%; height: 100.0%;">Ibn Tofail University (Hassan EL FADIL)</div>`)[0];
+                popup_006c8f81d3c266f2d6aae4e387038dfb.setContent(html_6c47fa003a0a74e73f49ef0ec9d08117);
+            
+        
+
+        marker_d32b2ffc949d855ac89c0513221ab845.bindPopup(popup_006c8f81d3c266f2d6aae4e387038dfb)
+        ;
+
+        
+    
+    
+                marker_d32b2ffc949d855ac89c0513221ab845.setIcon(icon_780931650a3daee420c7cae85af318ee);
+            
+    
+            var marker_e5179e009d880d66adca11b2d707509a = L.marker(
+                [34.26457, -6.570169],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_e817d88f93f5a5ef824a9c83a42d9cda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0089b939df8befa88ff293ee097a2dbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780f21491a536bfca429f0a65cf617d4 = $(`<div id="html_780f21491a536bfca429f0a65cf617d4" style="width: 100.0%; height: 100.0%;">Kénitra, Morocco (Hassan EL FADIL)</div>`)[0];
+                popup_0089b939df8befa88ff293ee097a2dbc.setContent(html_780f21491a536bfca429f0a65cf617d4);
+            
+        
+
+        marker_e5179e009d880d66adca11b2d707509a.bindPopup(popup_0089b939df8befa88ff293ee097a2dbc)
+        ;
+
+        
+    
+    
+                marker_e5179e009d880d66adca11b2d707509a.setIcon(icon_e817d88f93f5a5ef824a9c83a42d9cda);
+            
+    
+            var marker_214709a575dd5ade65d53b80e16f37ab = L.marker(
+                [53.4610001, 9.9692264],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_bc1b4d6b7e2e4353c76f766a9d6735e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b1c540c821ceaffbe46541521d789e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f67f27f939fd5f74584e42ca06dc3d1 = $(`<div id="html_1f67f27f939fd5f74584e42ca06dc3d1" style="width: 100.0%; height: 100.0%;">Hamburg University of Technology (TUHH) (Herbert Werner)</div>`)[0];
+                popup_6b1c540c821ceaffbe46541521d789e5.setContent(html_1f67f27f939fd5f74584e42ca06dc3d1);
+            
+        
+
+        marker_214709a575dd5ade65d53b80e16f37ab.bindPopup(popup_6b1c540c821ceaffbe46541521d789e5)
+        ;
+
+        
+    
+    
+                marker_214709a575dd5ade65d53b80e16f37ab.setIcon(icon_bc1b4d6b7e2e4353c76f766a9d6735e7);
+            
+    
+            var marker_f09a5a671344aff693f52261fcc0bf94 = L.marker(
+                [42.2813722, -83.7484616],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_fcca1b1f59dcbd595d634975217190b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b09c8b1d5d5cdc623b09902acd6c51f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad3fc64d630d971ff0466fcbaeface4f = $(`<div id="html_ad3fc64d630d971ff0466fcbaeface4f" style="width: 100.0%; height: 100.0%;">Ann Arbor (Hongyu Zhou & Hongyu Zhou & Rahul Ramesh & Rahul Ramesh)</div>`)[0];
+                popup_b09c8b1d5d5cdc623b09902acd6c51f4.setContent(html_ad3fc64d630d971ff0466fcbaeface4f);
+            
+        
+
+        marker_f09a5a671344aff693f52261fcc0bf94.bindPopup(popup_b09c8b1d5d5cdc623b09902acd6c51f4)
+        ;
+
+        
+    
+    
+                marker_f09a5a671344aff693f52261fcc0bf94.setIcon(icon_fcca1b1f59dcbd595d634975217190b1);
+            
+    
+            var marker_8d4fdc17506b5f1bf2e57d5f0d02ab42 = L.marker(
+                [42.2942142, -83.7100389],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_37d0878ecc36e500abba7d4611b0910f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_641ac1485ef452d6a12dd0cc95519239 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69dfaaecbbb6f14b2f3a82f9da05b824 = $(`<div id="html_69dfaaecbbb6f14b2f3a82f9da05b824" style="width: 100.0%; height: 100.0%;">University of Michigan, Ann Arbor (Hongyu Zhou & Hongyu Zhou & Rahul Ramesh & Rahul Ramesh)</div>`)[0];
+                popup_641ac1485ef452d6a12dd0cc95519239.setContent(html_69dfaaecbbb6f14b2f3a82f9da05b824);
+            
+        
+
+        marker_8d4fdc17506b5f1bf2e57d5f0d02ab42.bindPopup(popup_641ac1485ef452d6a12dd0cc95519239)
+        ;
+
+        
+    
+    
+                marker_8d4fdc17506b5f1bf2e57d5f0d02ab42.setIcon(icon_37d0878ecc36e500abba7d4611b0910f);
+            
+    
+            var marker_98f76e398f77dcc0aa74d6e983118f61 = L.marker(
+                [53.4610001, 9.9692264],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_149ca771ef537fdbafa129402841e018 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c77d8e5eba9f4909ca66a6aed69f45f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_690a69357e8959615c09e82db349b5f3 = $(`<div id="html_690a69357e8959615c09e82db349b5f3" style="width: 100.0%; height: 100.0%;">Hamburg University of Technology (Horacio Martínez Calderón & Horacio Martínez Calderón)</div>`)[0];
+                popup_9c77d8e5eba9f4909ca66a6aed69f45f.setContent(html_690a69357e8959615c09e82db349b5f3);
+            
+        
+
+        marker_98f76e398f77dcc0aa74d6e983118f61.bindPopup(popup_9c77d8e5eba9f4909ca66a6aed69f45f)
+        ;
+
+        
+    
+    
+                marker_98f76e398f77dcc0aa74d6e983118f61.setIcon(icon_149ca771ef537fdbafa129402841e018);
+            
+    
+            var marker_54799cbd969450efa5cddfbeea20e260 = L.marker(
+                [35.8190003, -106.2656274],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_9a86c2c7fba7f91b851044411aca571b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_189ecbddbaabc351445575d84bebb8a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cea139ee3befc24eef6a4e2ad783dae = $(`<div id="html_4cea139ee3befc24eef6a4e2ad783dae" style="width: 100.0%; height: 100.0%;">Los Alamos National Laboratory (Humberto C. Godinez)</div>`)[0];
+                popup_189ecbddbaabc351445575d84bebb8a8.setContent(html_4cea139ee3befc24eef6a4e2ad783dae);
+            
+        
+
+        marker_54799cbd969450efa5cddfbeea20e260.bindPopup(popup_189ecbddbaabc351445575d84bebb8a8)
+        ;
+
+        
+    
+    
+                marker_54799cbd969450efa5cddfbeea20e260.setIcon(icon_9a86c2c7fba7f91b851044411aca571b);
+            
+    
+            var marker_36ee0b2007259194401f7dc3f8c5db24 = L.marker(
+                [35.8567134, 128.4849417],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_9ad49b67eabecffac85767bfef2deb50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de8280b1d62627c9218df417b4e7ba2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac7e2aded3eba577e10055bf7a7017a9 = $(`<div id="html_ac7e2aded3eba577e10055bf7a7017a9" style="width: 100.0%; height: 100.0%;">Keimyung University (Ikhyun Kim)</div>`)[0];
+                popup_de8280b1d62627c9218df417b4e7ba2d.setContent(html_ac7e2aded3eba577e10055bf7a7017a9);
+            
+        
+
+        marker_36ee0b2007259194401f7dc3f8c5db24.bindPopup(popup_de8280b1d62627c9218df417b4e7ba2d)
+        ;
+
+        
+    
+    
+                marker_36ee0b2007259194401f7dc3f8c5db24.setIcon(icon_9ad49b67eabecffac85767bfef2deb50);
+            
+    
+            var marker_891a35b01c5e915211fcbfec866a54cc = L.marker(
+                [52.2127962, 0.0806399],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_b7805e780b71af2e74a43a39e768b127 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1165a4517ff4e2a7d17ae066d18d05bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e6fa7abfead63b7537ec65c299cef1e = $(`<div id="html_7e6fa7abfead63b7537ec65c299cef1e" style="width: 100.0%; height: 100.0%;">British Antarctic Survey (Ingrid Cnossen)</div>`)[0];
+                popup_1165a4517ff4e2a7d17ae066d18d05bb.setContent(html_7e6fa7abfead63b7537ec65c299cef1e);
+            
+        
+
+        marker_891a35b01c5e915211fcbfec866a54cc.bindPopup(popup_1165a4517ff4e2a7d17ae066d18d05bb)
+        ;
+
+        
+    
+    
+                marker_891a35b01c5e915211fcbfec866a54cc.setIcon(icon_b7805e780b71af2e74a43a39e768b127);
+            
+    
+            var marker_3aaae87a3d2c44cc461c5bad5194b97a = L.marker(
+                [47.622721, -122.337176],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6d4c56ebc5920eb77649a55b18fd051e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2edecb0225d76223c3a5e9857ad9b466 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78385f0d1754569058cb1f0b6908cb87 = $(`<div id="html_78385f0d1754569058cb1f0b6908cb87" style="width: 100.0%; height: 100.0%;">Federal University of Amazonas (Iury Bessa)</div>`)[0];
+                popup_2edecb0225d76223c3a5e9857ad9b466.setContent(html_78385f0d1754569058cb1f0b6908cb87);
+            
+        
+
+        marker_3aaae87a3d2c44cc461c5bad5194b97a.bindPopup(popup_2edecb0225d76223c3a5e9857ad9b466)
+        ;
+
+        
+    
+    
+                marker_3aaae87a3d2c44cc461c5bad5194b97a.setIcon(icon_6d4c56ebc5920eb77649a55b18fd051e);
+            
+    
+            var marker_487bf791b4ace197ed1f589da97c0c75 = L.marker(
+                [24.8552956, 102.8552716],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_5db7ff9b238cd97874cb065f851cc1f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d7f4cc3c9b16bf0f71e993ab30892a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_975556e19e5f5f754cbae1db8069900f = $(`<div id="html_975556e19e5f5f754cbae1db8069900f" style="width: 100.0%; height: 100.0%;">Kunming University of Science & Technology (JING NA)</div>`)[0];
+                popup_2d7f4cc3c9b16bf0f71e993ab30892a2.setContent(html_975556e19e5f5f754cbae1db8069900f);
+            
+        
+
+        marker_487bf791b4ace197ed1f589da97c0c75.bindPopup(popup_2d7f4cc3c9b16bf0f71e993ab30892a2)
+        ;
+
+        
+    
+    
+                marker_487bf791b4ace197ed1f589da97c0c75.setIcon(icon_5db7ff9b238cd97874cb065f851cc1f7);
+            
+    
+            var marker_d75bd2986f9daf8450110535267e7598 = L.marker(
+                [51.9197355, 9.0338629],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_74571ec51c5b99674668c31ad09e204b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_218f4c36044311bcf3a5c9d237ca4fbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd348aa307b4e3fc00421934e2605c43 = $(`<div id="html_dd348aa307b4e3fc00421934e2605c43" style="width: 100.0%; height: 100.0%;">CEITEC (Jakub Dokoupil)</div>`)[0];
+                popup_218f4c36044311bcf3a5c9d237ca4fbb.setContent(html_dd348aa307b4e3fc00421934e2605c43);
+            
+        
+
+        marker_d75bd2986f9daf8450110535267e7598.bindPopup(popup_218f4c36044311bcf3a5c9d237ca4fbb)
+        ;
+
+        
+    
+    
+                marker_d75bd2986f9daf8450110535267e7598.setIcon(icon_74571ec51c5b99674668c31ad09e204b);
+            
+    
+            var marker_d5c8e2d604dc44db8ea604eda0c250a4 = L.marker(
+                [-34.0092681, 18.5201497],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_b882519f9ccf27984d7407f130adcc1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a16ca3c5200dc5860c63d4ea1e9a877 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_883bf73f692c1816cec9b45c929c5cde = $(`<div id="html_883bf73f692c1816cec9b45c929c5cde" style="width: 100.0%; height: 100.0%;">U. of Kentucky (Jesse B. Hoagg)</div>`)[0];
+                popup_9a16ca3c5200dc5860c63d4ea1e9a877.setContent(html_883bf73f692c1816cec9b45c929c5cde);
+            
+        
+
+        marker_d5c8e2d604dc44db8ea604eda0c250a4.bindPopup(popup_9a16ca3c5200dc5860c63d4ea1e9a877)
+        ;
+
+        
+    
+    
+                marker_d5c8e2d604dc44db8ea604eda0c250a4.setIcon(icon_b882519f9ccf27984d7407f130adcc1e);
+            
+    
+            var marker_3ebccae43713e32284c8286cc85f3b67 = L.marker(
+                [39.4445243, -76.6483482],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_2fbb8ae9fd51274a8b9e5a493ceefae9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb87859054dc7c374ffea0dd4c46d7c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a102cb630ccf6857c05fdc6a50be2e9 = $(`<div id="html_7a102cb630ccf6857c05fdc6a50be2e9" style="width: 100.0%; height: 100.0%;">Baltimore County (Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Juan Augusto Paredes Salazar & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi)</div>`)[0];
+                popup_bb87859054dc7c374ffea0dd4c46d7c3.setContent(html_7a102cb630ccf6857c05fdc6a50be2e9);
+            
+        
+
+        marker_3ebccae43713e32284c8286cc85f3b67.bindPopup(popup_bb87859054dc7c374ffea0dd4c46d7c3)
+        ;
+
+        
+    
+    
+                marker_3ebccae43713e32284c8286cc85f3b67.setIcon(icon_2fbb8ae9fd51274a8b9e5a493ceefae9);
+            
+    
+            var marker_3651f2abc8a1884276a2835969fa6348 = L.marker(
+                [39.252377, -76.7089181],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_c8f56ca9b043350aaaeee162f941e6da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9130288caa8e0e2b31d410c303710424 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec34e7ddb5def68d7c6709bae1d693ae = $(`<div id="html_ec34e7ddb5def68d7c6709bae1d693ae" style="width: 100.0%; height: 100.0%;">University of Maryland, Baltimore County (Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Jhon Manuel Portella Delgado & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Meilin Yu & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi & Parham Oveissi)</div>`)[0];
+                popup_9130288caa8e0e2b31d410c303710424.setContent(html_ec34e7ddb5def68d7c6709bae1d693ae);
+            
+        
+
+        marker_3651f2abc8a1884276a2835969fa6348.bindPopup(popup_9130288caa8e0e2b31d410c303710424)
+        ;
+
+        
+    
+    
+                marker_3651f2abc8a1884276a2835969fa6348.setIcon(icon_c8f56ca9b043350aaaeee162f941e6da);
+            
+    
+            var marker_1e8462c5cd8a006ff91fdebeeac73bee = L.marker(
+                [39.8739143, 116.4772024],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4ac24ca146d887db285b2ace319a18a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54f3108298ce57d80139e0ac151c36fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c09509d39d28dd4a5ca29607b2a567d0 = $(`<div id="html_c09509d39d28dd4a5ca29607b2a567d0" style="width: 100.0%; height: 100.0%;">Beijing University of Technology (Jian  Tang)</div>`)[0];
+                popup_54f3108298ce57d80139e0ac151c36fc.setContent(html_c09509d39d28dd4a5ca29607b2a567d0);
+            
+        
+
+        marker_1e8462c5cd8a006ff91fdebeeac73bee.bindPopup(popup_54f3108298ce57d80139e0ac151c36fc)
+        ;
+
+        
+    
+    
+                marker_1e8462c5cd8a006ff91fdebeeac73bee.setIcon(icon_4ac24ca146d887db285b2ace319a18a0);
+            
+    
+            var marker_387bb7dc9b727acabb8811a3a666f07a = L.marker(
+                [47.645695, -122.131803],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1aed960fa8eb1abab65fe4d55261f2b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2be6c6b31b5ad2dae711311185ef1720 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_767141251059f0eaff72040b6205bbab = $(`<div id="html_767141251059f0eaff72040b6205bbab" style="width: 100.0%; height: 100.0%;">Microsoft Corporation (Jie Zhu & Jie Zhu)</div>`)[0];
+                popup_2be6c6b31b5ad2dae711311185ef1720.setContent(html_767141251059f0eaff72040b6205bbab);
+            
+        
+
+        marker_387bb7dc9b727acabb8811a3a666f07a.bindPopup(popup_2be6c6b31b5ad2dae711311185ef1720)
+        ;
+
+        
+    
+    
+                marker_387bb7dc9b727acabb8811a3a666f07a.setIcon(icon_1aed960fa8eb1abab65fe4d55261f2b3);
+            
+    
+            var marker_765a33cb0cd1d341e938cf26366058de = L.marker(
+                [52.4964265, 1.7294107],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_ad75d341d2206d7f61305b33930b5fcf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9dc58502a13baeb77c7931dd55c9cf17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db81478b262069f88c0510ee26526bfe = $(`<div id="html_db81478b262069f88c0510ee26526bfe" style="width: 100.0%; height: 100.0%;">Academy of Mathematics (Jieming Ke & Zhao Yanlong)</div>`)[0];
+                popup_9dc58502a13baeb77c7931dd55c9cf17.setContent(html_db81478b262069f88c0510ee26526bfe);
+            
+        
+
+        marker_765a33cb0cd1d341e938cf26366058de.bindPopup(popup_9dc58502a13baeb77c7931dd55c9cf17)
+        ;
+
+        
+    
+    
+                marker_765a33cb0cd1d341e938cf26366058de.setIcon(icon_ad75d341d2206d7f61305b33930b5fcf);
+            
+    
+            var marker_7e6ffff1a54be1d20356acf2cd404280 = L.marker(
+                [39.9093367, 116.3297146],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_a8fc30bdeae3cd5bd75a0bf4b072b9ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3963e202d79a0475fa5173525446e4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8944d9112de5318408af118ac32ffa07 = $(`<div id="html_8944d9112de5318408af118ac32ffa07" style="width: 100.0%; height: 100.0%;">Chinese Academy of Sciences (Jieming Ke)</div>`)[0];
+                popup_f3963e202d79a0475fa5173525446e4a.setContent(html_8944d9112de5318408af118ac32ffa07);
+            
+        
+
+        marker_7e6ffff1a54be1d20356acf2cd404280.bindPopup(popup_f3963e202d79a0475fa5173525446e4a)
+        ;
+
+        
+    
+    
+                marker_7e6ffff1a54be1d20356acf2cd404280.setIcon(icon_a8fc30bdeae3cd5bd75a0bf4b072b9ff);
+            
+    
+            var marker_2ea673650b38e5f09c0878cbefc04dc9 = L.marker(
+                [52.9365542, -1.1845664],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_a45478ea85e15bb496b5ff1398c598f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42f9abc251a398e4f6152567f820f705 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb5a9c879500b541bb962198d8345188 = $(`<div id="html_fb5a9c879500b541bb962198d8345188" style="width: 100.0%; height: 100.0%;">Systems Science (Jieming Ke & Zhao Yanlong)</div>`)[0];
+                popup_42f9abc251a398e4f6152567f820f705.setContent(html_fb5a9c879500b541bb962198d8345188);
+            
+        
+
+        marker_2ea673650b38e5f09c0878cbefc04dc9.bindPopup(popup_42f9abc251a398e4f6152567f820f705)
+        ;
+
+        
+    
+    
+                marker_2ea673650b38e5f09c0878cbefc04dc9.setIcon(icon_a45478ea85e15bb496b5ff1398c598f5);
+            
+    
+            var marker_eeb2735e49404581da17544d62776707 = L.marker(
+                [47.413218, 8.5374914],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_3a4f86adfecc02c3d27ef523ed66f817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8536da9bb4bbf8641eb2a3a7a7303d87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f6278a878291d8dd00f90dc99e3a921 = $(`<div id="html_7f6278a878291d8dd00f90dc99e3a921" style="width: 100.0%; height: 100.0%;">ETH Zurich (Johannes Köhler)</div>`)[0];
+                popup_8536da9bb4bbf8641eb2a3a7a7303d87.setContent(html_7f6278a878291d8dd00f90dc99e3a921);
+            
+        
+
+        marker_eeb2735e49404581da17544d62776707.bindPopup(popup_8536da9bb4bbf8641eb2a3a7a7303d87)
+        ;
+
+        
+    
+    
+                marker_eeb2735e49404581da17544d62776707.setIcon(icon_3a4f86adfecc02c3d27ef523ed66f817);
+            
+    
+            var marker_8243a8a14210da761c7990fac11f3166 = L.marker(
+                [35.8961987, -78.8705912],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1e3ebbc9e4a815bdd1068886484bcf4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b3a6b8a4778748838e028fbd10f5d97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f142ac23ddef40f0721c71ffd5850f5 = $(`<div id="html_0f142ac23ddef40f0721c71ffd5850f5" style="width: 100.0%; height: 100.0%;">US Army Research Lab (John T Hrynuk & John T Hrynuk & John T Hrynuk & John T Hrynuk & John T Hrynuk)</div>`)[0];
+                popup_1b3a6b8a4778748838e028fbd10f5d97.setContent(html_0f142ac23ddef40f0721c71ffd5850f5);
+            
+        
+
+        marker_8243a8a14210da761c7990fac11f3166.bindPopup(popup_1b3a6b8a4778748838e028fbd10f5d97)
+        ;
+
+        
+    
+    
+                marker_8243a8a14210da761c7990fac11f3166.setIcon(icon_1e3ebbc9e4a815bdd1068886484bcf4f);
+            
+    
+            var marker_a017e7a30bb1f3c3f4263def007887e4 = L.marker(
+                [19.345143, -99.1998346],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6e29e26438e1bd2e76c51c641a1b1570 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e324c710a63e1faf3727d27f989b976 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fff3c0eea9bf860f4e09010f7d434be = $(`<div id="html_9fff3c0eea9bf860f4e09010f7d434be" style="width: 100.0%; height: 100.0%;">ITAM (Jose Guadalupe Romero Velazquez & Jose Guadalupe Romero Velazquez & Romeo Ortega & Romeo Ortega & Romeo Ortega & Romeo Ortega & Romeo Ortega & Romeo Ortega)</div>`)[0];
+                popup_4e324c710a63e1faf3727d27f989b976.setContent(html_9fff3c0eea9bf860f4e09010f7d434be);
+            
+        
+
+        marker_a017e7a30bb1f3c3f4263def007887e4.bindPopup(popup_4e324c710a63e1faf3727d27f989b976)
+        ;
+
+        
+    
+    
+                marker_a017e7a30bb1f3c3f4263def007887e4.setIcon(icon_6e29e26438e1bd2e76c51c641a1b1570);
+            
+    
+            var marker_2df39aa786ff4b581038d68c8f8a1783 = L.marker(
+                [30.2029768, -81.7451249],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_99b16b25f756782c70b6a2d0703cea67 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abcced14a01ad5e4c1ad1fa190eb1a53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92d369f59ef214bebb5425d06e94b26b = $(`<div id="html_92d369f59ef214bebb5425d06e94b26b" style="width: 100.0%; height: 100.0%;">Boeing (Joseph Gaudio)</div>`)[0];
+                popup_abcced14a01ad5e4c1ad1fa190eb1a53.setContent(html_92d369f59ef214bebb5425d06e94b26b);
+            
+        
+
+        marker_2df39aa786ff4b581038d68c8f8a1783.bindPopup(popup_abcced14a01ad5e4c1ad1fa190eb1a53)
+        ;
+
+        
+    
+    
+                marker_2df39aa786ff4b581038d68c8f8a1783.setIcon(icon_99b16b25f756782c70b6a2d0703cea67);
+            
+    
+            var marker_0bea4bc6362b4918f2bae733202f4f5c = L.marker(
+                [38.7367455, -9.1383914],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_93bbca58596850331d9c145fa7d09cb8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_291a88ca1e15ffce1b89825cb04adc80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b4b4f67f46cd730a36d7b7e5c424001 = $(`<div id="html_0b4b4f67f46cd730a36d7b7e5c424001" style="width: 100.0%; height: 100.0%;">Instituto Superior Técnico (José Gerald & Paulo Alexandre Crisóstomo Lopes & Paulo Alexandre Crisóstomo Lopes)</div>`)[0];
+                popup_291a88ca1e15ffce1b89825cb04adc80.setContent(html_0b4b4f67f46cd730a36d7b7e5c424001);
+            
+        
+
+        marker_0bea4bc6362b4918f2bae733202f4f5c.bindPopup(popup_291a88ca1e15ffce1b89825cb04adc80)
+        ;
+
+        
+    
+    
+                marker_0bea4bc6362b4918f2bae733202f4f5c.setIcon(icon_93bbca58596850331d9c145fa7d09cb8);
+            
+    
+            var marker_507dac861e47c386a43397345a3c2804 = L.marker(
+                [38.7525379, -9.1568456],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_cf7ae11113fdcd86252559d47a090bc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_758ec55fce0eca50d5697ae1ff72877c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ee244a8b2ef775b459d023d05a69dd3 = $(`<div id="html_2ee244a8b2ef775b459d023d05a69dd3" style="width: 100.0%; height: 100.0%;">Universidade de Lisboa (José Gerald)</div>`)[0];
+                popup_758ec55fce0eca50d5697ae1ff72877c.setContent(html_2ee244a8b2ef775b459d023d05a69dd3);
+            
+        
+
+        marker_507dac861e47c386a43397345a3c2804.bindPopup(popup_758ec55fce0eca50d5697ae1ff72877c)
+        ;
+
+        
+    
+    
+                marker_507dac861e47c386a43397345a3c2804.setIcon(icon_cf7ae11113fdcd86252559d47a090bc7);
+            
+    
+            var marker_6ceb37b4cd2a5e37005e8e713aa9a1f8 = L.marker(
+                [-22.822656, -47.0627959],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_7722d538e10b10e8e5ab579974b94b20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fcae9c877e0926ac2b57a2147552914a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14ade1fd86443cd2915aeb25f115389d = $(`<div id="html_14ade1fd86443cd2915aeb25f115389d" style="width: 100.0%; height: 100.0%;">Unicamp (João Felipe Contreras)</div>`)[0];
+                popup_fcae9c877e0926ac2b57a2147552914a.setContent(html_14ade1fd86443cd2915aeb25f115389d);
+            
+        
+
+        marker_6ceb37b4cd2a5e37005e8e713aa9a1f8.bindPopup(popup_fcae9c877e0926ac2b57a2147552914a)
+        ;
+
+        
+    
+    
+                marker_6ceb37b4cd2a5e37005e8e713aa9a1f8.setIcon(icon_7722d538e10b10e8e5ab579974b94b20);
+            
+    
+            var marker_a9a362fb0a70b8fdb73eae638f315f1c = L.marker(
+                [35.7002987, 128.4576373],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_f596af0d78ff0f1f29aa60bc18821a1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9b75f1b8b69ca816322fbc3068dae6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c6414b5a2d6632f26ce03aeed964045 = $(`<div id="html_5c6414b5a2d6632f26ce03aeed964045" style="width: 100.0%; height: 100.0%;">DGIST (Kanghyun Nam)</div>`)[0];
+                popup_f9b75f1b8b69ca816322fbc3068dae6a.setContent(html_5c6414b5a2d6632f26ce03aeed964045);
+            
+        
+
+        marker_a9a362fb0a70b8fdb73eae638f315f1c.bindPopup(popup_f9b75f1b8b69ca816322fbc3068dae6a)
+        ;
+
+        
+    
+    
+                marker_a9a362fb0a70b8fdb73eae638f315f1c.setIcon(icon_f596af0d78ff0f1f29aa60bc18821a1c);
+            
+    
+            var marker_3b9938f5ec68b9bf5a7374f5e120e045 = L.marker(
+                [25.3109001, 55.4918505],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_f569a0ef49a1602dd84f82a9e100cac0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9880a241d987a63273c997d017e054b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7df28c158e4d3dd844b911120089942 = $(`<div id="html_a7df28c158e4d3dd844b911120089942" style="width: 100.0%; height: 100.0%;">American University of Sharjah (Khaled Aljanaideh)</div>`)[0];
+                popup_c9880a241d987a63273c997d017e054b.setContent(html_a7df28c158e4d3dd844b911120089942);
+            
+        
+
+        marker_3b9938f5ec68b9bf5a7374f5e120e045.bindPopup(popup_c9880a241d987a63273c997d017e054b)
+        ;
+
+        
+    
+    
+                marker_3b9938f5ec68b9bf5a7374f5e120e045.setIcon(icon_f569a0ef49a1602dd84f82a9e100cac0);
+            
+    
+            var marker_f918ec0e023a9b5e9c4456b30ea87cf8 = L.marker(
+                [32.4933999, 35.9898545],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_8a2babc819aa77a2923a75305ff8f925 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b26dff1bea15b24a555caf612d22744d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f272f1d8d8b1b0fe0d64737db85cd8ac = $(`<div id="html_f272f1d8d8b1b0fe0d64737db85cd8ac" style="width: 100.0%; height: 100.0%;">Jordan University of Science (Khaled Aljanaideh)</div>`)[0];
+                popup_b26dff1bea15b24a555caf612d22744d.setContent(html_f272f1d8d8b1b0fe0d64737db85cd8ac);
+            
+        
+
+        marker_f918ec0e023a9b5e9c4456b30ea87cf8.bindPopup(popup_b26dff1bea15b24a555caf612d22744d)
+        ;
+
+        
+    
+    
+                marker_f918ec0e023a9b5e9c4456b30ea87cf8.setIcon(icon_8a2babc819aa77a2923a75305ff8f925);
+            
+    
+            var marker_50133585bf2ee1e2a4fd0b9c7eb38bdd = L.marker(
+                [42.3582529, -71.0966272],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_95499fe2e3b07831e65713b2a0e935f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6bd68123e1304afa2b303d7025898348 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cdc024c5f048950230a74be37ff21df = $(`<div id="html_1cdc024c5f048950230a74be37ff21df" style="width: 100.0%; height: 100.0%;">Technology (Khaled Aljanaideh & Peng Yu & Shanfei Su & Tarig Ballal & Tarig Ballal & Wai Tong Chor & Wai Tong Chor & Xiaowen Shan & Yiming Wan & Yiming Wan & Yiming Wan)</div>`)[0];
+                popup_6bd68123e1304afa2b303d7025898348.setContent(html_1cdc024c5f048950230a74be37ff21df);
+            
+        
+
+        marker_50133585bf2ee1e2a4fd0b9c7eb38bdd.bindPopup(popup_6bd68123e1304afa2b303d7025898348)
+        ;
+
+        
+    
+    
+                marker_50133585bf2ee1e2a4fd0b9c7eb38bdd.setIcon(icon_95499fe2e3b07831e65713b2a0e935f4);
+            
+    
+            var marker_ab239f00cc185d48855c59a10e2aec56 = L.marker(
+                [42.3000136, -71.350891],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_9fba00cfd7f5074711f4c4d48ddbb1c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b9f7d4cc0e28ae435030e6d74a59962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7a6ca36f486c374ee59395d6a5520bb = $(`<div id="html_b7a6ca36f486c374ee59395d6a5520bb" style="width: 100.0%; height: 100.0%;">ex-MathWorks (Khaled Aljanaideh)</div>`)[0];
+                popup_5b9f7d4cc0e28ae435030e6d74a59962.setContent(html_b7a6ca36f486c374ee59395d6a5520bb);
+            
+        
+
+        marker_ab239f00cc185d48855c59a10e2aec56.bindPopup(popup_5b9f7d4cc0e28ae435030e6d74a59962)
+        ;
+
+        
+    
+    
+                marker_ab239f00cc185d48855c59a10e2aec56.setIcon(icon_9fba00cfd7f5074711f4c4d48ddbb1c9);
+            
+    
+            var marker_c2d970c0f7af937f2f4375aaadd35a2b = L.marker(
+                [51.4032168, 5.4143667],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6d89b6403fc8d02d0fd87aabc9e40161 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_082d7ae3ebe7a0ae8eec837a859e050e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a413ad48ab86e2531d02bc91df08001c = $(`<div id="html_a413ad48ab86e2531d02bc91df08001c" style="width: 100.0%; height: 100.0%;">ASML (Koen Classens)</div>`)[0];
+                popup_082d7ae3ebe7a0ae8eec837a859e050e.setContent(html_a413ad48ab86e2531d02bc91df08001c);
+            
+        
+
+        marker_c2d970c0f7af937f2f4375aaadd35a2b.bindPopup(popup_082d7ae3ebe7a0ae8eec837a859e050e)
+        ;
+
+        
+    
+    
+                marker_c2d970c0f7af937f2f4375aaadd35a2b.setIcon(icon_6d89b6403fc8d02d0fd87aabc9e40161);
+            
+    
+            var marker_e6d2ebfe7afb2712ae4c98f4fc3f831d = L.marker(
+                [1.3484104, 103.6829332],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_17c1b4ccef8caa75fd0273d6c6e2c710 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_50d9a78d46e3cf987388ea2de382426e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b00c30cdc48323a3f7027f16b5296bf2 = $(`<div id="html_b00c30cdc48323a3f7027f16b5296bf2" style="width: 100.0%; height: 100.0%;">Nanyang Technological University, Singapore (Kun Zhang)</div>`)[0];
+                popup_50d9a78d46e3cf987388ea2de382426e.setContent(html_b00c30cdc48323a3f7027f16b5296bf2);
+            
+        
+
+        marker_e6d2ebfe7afb2712ae4c98f4fc3f831d.bindPopup(popup_50d9a78d46e3cf987388ea2de382426e)
+        ;
+
+        
+    
+    
+                marker_e6d2ebfe7afb2712ae4c98f4fc3f831d.setIcon(icon_17c1b4ccef8caa75fd0273d6c6e2c710);
+            
+    
+            var marker_c59b86f10bbde1d43f60cc78ad4952aa = L.marker(
+                [32.2356928, -110.951744],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_62a3aa69b36385220b7008fbdb2eb0a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42e2c81faa9e6490055424116323f43a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c5ab79da862922cdc5d7ff3fffb8fac = $(`<div id="html_6c5ab79da862922cdc5d7ff3fffb8fac" style="width: 100.0%; height: 100.0%;">University of Arizona (Kyle Hanquist & Kyle Hanquist & Kyle Hanquist & Kyle Hanquist)</div>`)[0];
+                popup_42e2c81faa9e6490055424116323f43a.setContent(html_6c5ab79da862922cdc5d7ff3fffb8fac);
+            
+        
+
+        marker_c59b86f10bbde1d43f60cc78ad4952aa.bindPopup(popup_42e2c81faa9e6490055424116323f43a)
+        ;
+
+        
+    
+    
+                marker_c59b86f10bbde1d43f60cc78ad4952aa.setIcon(icon_62a3aa69b36385220b7008fbdb2eb0a9);
+            
+    
+            var marker_c22d82ba559a690de6fa42aa63285ae3 = L.marker(
+                [37.5557232, 127.0436441],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_81220003821f6c84cf7ffc3f13c67acc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ac8ef741b9f2dfd5ccbb51fb3b7f475 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cedb9f85ee161aeb2744fd5203321a20 = $(`<div id="html_cedb9f85ee161aeb2744fd5203321a20" style="width: 100.0%; height: 100.0%;">Hanyang University (Kyoungseok Han)</div>`)[0];
+                popup_5ac8ef741b9f2dfd5ccbb51fb3b7f475.setContent(html_cedb9f85ee161aeb2744fd5203321a20);
+            
+        
+
+        marker_c22d82ba559a690de6fa42aa63285ae3.bindPopup(popup_5ac8ef741b9f2dfd5ccbb51fb3b7f475)
+        ;
+
+        
+    
+    
+                marker_c22d82ba559a690de6fa42aa63285ae3.setIcon(icon_81220003821f6c84cf7ffc3f13c67acc);
+            
+    
+            var marker_2fe0f7a303d5298d958bbf03d3e60f16 = L.marker(
+                [59.2016758, 17.6203201],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_e1ab3715cc299ec02600f75c325d1b00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea90e1c0573d5e087a800269ced204ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c78e0610a44a0e33023024a0a178639 = $(`<div id="html_1c78e0610a44a0e33023024a0a178639" style="width: 100.0%; height: 100.0%;">KTH Royal Institute of Technology (Lantian Zhang)</div>`)[0];
+                popup_ea90e1c0573d5e087a800269ced204ec.setContent(html_1c78e0610a44a0e33023024a0a178639);
+            
+        
+
+        marker_2fe0f7a303d5298d958bbf03d3e60f16.bindPopup(popup_ea90e1c0573d5e087a800269ced204ec)
+        ;
+
+        
+    
+    
+                marker_2fe0f7a303d5298d958bbf03d3e60f16.setIcon(icon_e1ab3715cc299ec02600f75c325d1b00);
+            
+    
+            var marker_f33cb5c2a3ee62cc43262206715a3d48 = L.marker(
+                [10.6125802, -74.164337],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_c6365b93ab6c268465ba7c6a529eb8a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4827b9d7df99c20f46e6e10cd58efdc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a9e2ff39afcb0cb4be8f8919204280 = $(`<div id="html_a3a9e2ff39afcb0cb4be8f8919204280" style="width: 100.0%; height: 100.0%;">Control) (Laura Giarre')</div>`)[0];
+                popup_4827b9d7df99c20f46e6e10cd58efdc1.setContent(html_a3a9e2ff39afcb0cb4be8f8919204280);
+            
+        
+
+        marker_f33cb5c2a3ee62cc43262206715a3d48.bindPopup(popup_4827b9d7df99c20f46e6e10cd58efdc1)
+        ;
+
+        
+    
+    
+                marker_f33cb5c2a3ee62cc43262206715a3d48.setIcon(icon_c6365b93ab6c268465ba7c6a529eb8a8);
+            
+    
+            var marker_96f70cb5aa1a0ebe37fef598c344c1e1 = L.marker(
+                [50.9280446, 6.9281305],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_dda59dcb5d5e0ce09f526bdd0bf84bcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_767e0591fe0acac52c684e79ae3d1bae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22e147730568f38799cde56f874b6582 = $(`<div id="html_22e147730568f38799cde56f874b6582" style="width: 100.0%; height: 100.0%;">University of Cologne (Laura Reh)</div>`)[0];
+                popup_767e0591fe0acac52c684e79ae3d1bae.setContent(html_22e147730568f38799cde56f874b6582);
+            
+        
+
+        marker_96f70cb5aa1a0ebe37fef598c344c1e1.bindPopup(popup_767e0591fe0acac52c684e79ae3d1bae)
+        ;
+
+        
+    
+    
+                marker_96f70cb5aa1a0ebe37fef598c344c1e1.setIcon(icon_dda59dcb5d5e0ce09f526bdd0bf84bcd);
+            
+    
+            var marker_0672e76e4044d8b7fc8bb24656b67f45 = L.marker(
+                [38.0410576, -78.5055084],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_815139b708278723a2dbd02ee4dac75b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05a129ef2fbae36eba3b64e6675cfe22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29dc61729ac164906a820a87ffb40747 = $(`<div id="html_29dc61729ac164906a820a87ffb40747" style="width: 100.0%; height: 100.0%;">University of Virginia (Laurie Elkowitz)</div>`)[0];
+                popup_05a129ef2fbae36eba3b64e6675cfe22.setContent(html_29dc61729ac164906a820a87ffb40747);
+            
+        
+
+        marker_0672e76e4044d8b7fc8bb24656b67f45.bindPopup(popup_05a129ef2fbae36eba3b64e6675cfe22)
+        ;
+
+        
+    
+    
+                marker_0672e76e4044d8b7fc8bb24656b67f45.setIcon(icon_815139b708278723a2dbd02ee4dac75b);
+            
+    
+            var marker_8dd6a9b115a365dbaac26c87607ffd68 = L.marker(
+                [39.9809427, 116.3409787],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_7eb3b3e9c669cbc1736ae0e8513c2af5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3415b1c5d574414dfa9ca4ac9f51e3fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_324536a70c3ce02e04a069fb2d0da41a = $(`<div id="html_324536a70c3ce02e04a069fb2d0da41a" style="width: 100.0%; height: 100.0%;">Beihang University (Liang HAN & Liang HAN)</div>`)[0];
+                popup_3415b1c5d574414dfa9ca4ac9f51e3fd.setContent(html_324536a70c3ce02e04a069fb2d0da41a);
+            
+        
+
+        marker_8dd6a9b115a365dbaac26c87607ffd68.bindPopup(popup_3415b1c5d574414dfa9ca4ac9f51e3fd)
+        ;
+
+        
+    
+    
+                marker_8dd6a9b115a365dbaac26c87607ffd68.setIcon(icon_7eb3b3e9c669cbc1736ae0e8513c2af5);
+            
+    
+            var marker_a44c4e832f317a41822ce6c6c507d4b7 = L.marker(
+                [38.8812564, 121.52016],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_7f6080689cec5281baacf1f9242396e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_402f46e1d4e305608eb638578d9807f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51cb50fda82ec4e5029437dd4f47fe03 = $(`<div id="html_51cb50fda82ec4e5029437dd4f47fe03" style="width: 100.0%; height: 100.0%;">Dalian University of Technology (Liu Tao)</div>`)[0];
+                popup_402f46e1d4e305608eb638578d9807f7.setContent(html_51cb50fda82ec4e5029437dd4f47fe03);
+            
+        
+
+        marker_a44c4e832f317a41822ce6c6c507d4b7.bindPopup(popup_402f46e1d4e305608eb638578d9807f7)
+        ;
+
+        
+    
+    
+                marker_a44c4e832f317a41822ce6c6c507d4b7.setIcon(icon_7f6080689cec5281baacf1f9242396e9);
+            
+    
+            var marker_15611d56ed6f9e27d246dcfbde51652c = L.marker(
+                [8.7367637, 76.8345148],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_90f55695db33afc83f3ddbdae980c37f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_399819af9b6b3d15a1e5c125258e29b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f099c67584ffd1312d94625a5468d41 = $(`<div id="html_5f099c67584ffd1312d94625a5468d41" style="width: 100.0%; height: 100.0%;">Technology Institute (Luiz Cordovil-Jr)</div>`)[0];
+                popup_399819af9b6b3d15a1e5c125258e29b3.setContent(html_5f099c67584ffd1312d94625a5468d41);
+            
+        
+
+        marker_15611d56ed6f9e27d246dcfbde51652c.bindPopup(popup_399819af9b6b3d15a1e5c125258e29b3)
+        ;
+
+        
+    
+    
+                marker_15611d56ed6f9e27d246dcfbde51652c.setIcon(icon_90f55695db33afc83f3ddbdae980c37f);
+            
+    
+            var marker_68cf926670e6a4838b3a4c15d10f82c6 = L.marker(
+                [42.3365725, -71.095373],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_c2b7a6cd358e85777a631bf660991870 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_170415e643846648087f2d9d412862f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f35d26d09ced99402c3665e6d5769113 = $(`<div id="html_f35d26d09ced99402c3665e6d5769113" style="width: 100.0%; height: 100.0%;">Wentworth Institute of Technology (Mahmut Reyhanoglu)</div>`)[0];
+                popup_170415e643846648087f2d9d412862f0.setContent(html_f35d26d09ced99402c3665e6d5769113);
+            
+        
+
+        marker_68cf926670e6a4838b3a4c15d10f82c6.bindPopup(popup_170415e643846648087f2d9d412862f0)
+        ;
+
+        
+    
+    
+                marker_68cf926670e6a4838b3a4c15d10f82c6.setIcon(icon_c2b7a6cd358e85777a631bf660991870);
+            
+    
+            var marker_ff12cfe3651a3d2746fe504102123f07 = L.marker(
+                [33.7760948, -84.3988077],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1899adabacac54887f022e829b451bcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8707ce9ebb28c771f82d71cc532c9750 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd50bf35601e9f072e36a4ea47e6bf8 = $(`<div id="html_1cd50bf35601e9f072e36a4ea47e6bf8" style="width: 100.0%; height: 100.0%;">Georgia Institute of Technology (Mehregan Dor & Qizhi Lu & Travis Driver)</div>`)[0];
+                popup_8707ce9ebb28c771f82d71cc532c9750.setContent(html_1cd50bf35601e9f072e36a4ea47e6bf8);
+            
+        
+
+        marker_ff12cfe3651a3d2746fe504102123f07.bindPopup(popup_8707ce9ebb28c771f82d71cc532c9750)
+        ;
+
+        
+    
+    
+                marker_ff12cfe3651a3d2746fe504102123f07.setIcon(icon_1899adabacac54887f022e829b451bcd);
+            
+    
+            var marker_f0db5207d6a214e283527dd9e24a8959 = L.marker(
+                [35.704462, 51.4095924],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_fde971fbdc79f973ad913a42c8f118c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac2d1c928e0b8dac61de7ec3b19f35c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_065fd5c2de50c0c06214d4f4ddc9499d = $(`<div id="html_065fd5c2de50c0c06214d4f4ddc9499d" style="width: 100.0%; height: 100.0%;">Amirkabir University of Technology (Mohammad Malakouti Khah & Sepehr Saadat)</div>`)[0];
+                popup_ac2d1c928e0b8dac61de7ec3b19f35c3.setContent(html_065fd5c2de50c0c06214d4f4ddc9499d);
+            
+        
+
+        marker_f0db5207d6a214e283527dd9e24a8959.bindPopup(popup_ac2d1c928e0b8dac61de7ec3b19f35c3)
+        ;
+
+        
+    
+    
+                marker_f0db5207d6a214e283527dd9e24a8959.setIcon(icon_fde971fbdc79f973ad913a42c8f118c5);
+            
+    
+            var marker_2be9fdbaed7067b2fec9fe4868910174 = L.marker(
+                [30.6972412, -88.1892334],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_2deae9bae4c111c7bf1762262a7c38b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d2e732fddb990737df111fd61815027 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_695c466a95c69859a4268e6c1604b894 = $(`<div id="html_695c466a95c69859a4268e6c1604b894" style="width: 100.0%; height: 100.0%;">University of South Alabama (Mohammadreza Kamaldar & Mohammadreza Kamaldar)</div>`)[0];
+                popup_2d2e732fddb990737df111fd61815027.setContent(html_695c466a95c69859a4268e6c1604b894);
+            
+        
+
+        marker_2be9fdbaed7067b2fec9fe4868910174.bindPopup(popup_2d2e732fddb990737df111fd61815027)
+        ;
+
+        
+    
+    
+                marker_2be9fdbaed7067b2fec9fe4868910174.setIcon(icon_2deae9bae4c111c7bf1762262a7c38b2);
+            
+    
+            var marker_cfe7ce98e40da2f5a70d69c57de7e204 = L.marker(
+                [21.4934147, 39.2485449],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_5c9930619c24f15fe74096513f9b56b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1446cff52aa97b6a44a5d32d319ac5e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41b0e02f7d753adcc62c5ebb37df1f17 = $(`<div id="html_41b0e02f7d753adcc62c5ebb37df1f17" style="width: 100.0%; height: 100.0%;">King Abdulaziz University (Muhammad Moinuddin & Muhammad Moinuddin & Ubaid M. Al-Saggaf & Ubaid M. Al-Saggaf)</div>`)[0];
+                popup_1446cff52aa97b6a44a5d32d319ac5e5.setContent(html_41b0e02f7d753adcc62c5ebb37df1f17);
+            
+        
+
+        marker_cfe7ce98e40da2f5a70d69c57de7e204.bindPopup(popup_1446cff52aa97b6a44a5d32d319ac5e5)
+        ;
+
+        
+    
+    
+                marker_cfe7ce98e40da2f5a70d69c57de7e204.setIcon(icon_5c9930619c24f15fe74096513f9b56b4);
+            
+    
+            var marker_5cec88a1f837bcc5b7713a4d3e21244b = L.marker(
+                [-15.7629559, -47.872432],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_42ec0b1d084fd0596772be55553935de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cc908811398ac9b646cf0884e395f1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cbae0ed7bd3efff17fa3620d70d6739 = $(`<div id="html_1cbae0ed7bd3efff17fa3620d70d6739" style="width: 100.0%; height: 100.0%;">Departamento de Engenharia Elétrica (Mário Sarcinelli Filho)</div>`)[0];
+                popup_8cc908811398ac9b646cf0884e395f1b.setContent(html_1cbae0ed7bd3efff17fa3620d70d6739);
+            
+        
+
+        marker_5cec88a1f837bcc5b7713a4d3e21244b.bindPopup(popup_8cc908811398ac9b646cf0884e395f1b)
+        ;
+
+        
+    
+    
+                marker_5cec88a1f837bcc5b7713a4d3e21244b.setIcon(icon_42ec0b1d084fd0596772be55553935de);
+            
+    
+            var marker_ab3053cf583998328524deaf445dbd67 = L.marker(
+                [-20.2771567, -40.3045093],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1972ecdef2b48eba32769b1c8d1a7ea4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3aa2911f7b01d1bdc2c169371bed3107 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fa808f83861856e7bcdbe11197d26f3 = $(`<div id="html_3fa808f83861856e7bcdbe11197d26f3" style="width: 100.0%; height: 100.0%;">Universidade Federal do Espírito Santo (Mário Sarcinelli Filho)</div>`)[0];
+                popup_3aa2911f7b01d1bdc2c169371bed3107.setContent(html_3fa808f83861856e7bcdbe11197d26f3);
+            
+        
+
+        marker_ab3053cf583998328524deaf445dbd67.bindPopup(popup_3aa2911f7b01d1bdc2c169371bed3107)
+        ;
+
+        
+    
+    
+                marker_ab3053cf583998328524deaf445dbd67.setIcon(icon_1972ecdef2b48eba32769b1c8d1a7ea4);
+            
+    
+            var marker_b89f2813784659c2f4027b14abf5c4e8 = L.marker(
+                [31.2847393, 121.4969491],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1f9bf6cc7e3cad0ef8a6a7b6a74e7bda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c147bb7535e37d540067ae80b72ca6b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3145c86ba2420a962ba6e69637e4982a = $(`<div id="html_3145c86ba2420a962ba6e69637e4982a" style="width: 100.0%; height: 100.0%;">Tongji University (Nan Li)</div>`)[0];
+                popup_c147bb7535e37d540067ae80b72ca6b2.setContent(html_3145c86ba2420a962ba6e69637e4982a);
+            
+        
+
+        marker_b89f2813784659c2f4027b14abf5c4e8.bindPopup(popup_c147bb7535e37d540067ae80b72ca6b2)
+        ;
+
+        
+    
+    
+                marker_b89f2813784659c2f4027b14abf5c4e8.setIcon(icon_1f9bf6cc7e3cad0ef8a6a7b6a74e7bda);
+            
+    
+            var marker_dc269db566a3dea1831092d52555f59e = L.marker(
+                [39.252377, -76.7089181],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_5b008894d961afddde130121a1c4acc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acd9ee9f1f34ab134571d0dde47ffdd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1231a30361675bf197f68397503727c1 = $(`<div id="html_1231a30361675bf197f68397503727c1" style="width: 100.0%; height: 100.0%;">University of Maryland Baltimore County (Naresh Poudel & Naresh Poudel & Naresh Poudel & Naresh Poudel)</div>`)[0];
+                popup_acd9ee9f1f34ab134571d0dde47ffdd1.setContent(html_1231a30361675bf197f68397503727c1);
+            
+        
+
+        marker_dc269db566a3dea1831092d52555f59e.bindPopup(popup_acd9ee9f1f34ab134571d0dde47ffdd1)
+        ;
+
+        
+    
+    
+                marker_dc269db566a3dea1831092d52555f59e.setIcon(icon_5b008894d961afddde130121a1c4acc2);
+            
+    
+            var marker_1a62cba834932f8dca45f86709b269f1 = L.marker(
+                [55.3678532, 10.4280534],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_ed54ec855677d4c78dfab7fcd639e36b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5007987ce27ffbe60bdaba92d616c5eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1f02612b6270e9fbebb56f60142e095 = $(`<div id="html_e1f02612b6270e9fbebb56f60142e095" style="width: 100.0%; height: 100.0%;">University of Southern Denmark (Ngoc-Phi Nguyen)</div>`)[0];
+                popup_5007987ce27ffbe60bdaba92d616c5eb.setContent(html_e1f02612b6270e9fbebb56f60142e095);
+            
+        
+
+        marker_1a62cba834932f8dca45f86709b269f1.bindPopup(popup_5007987ce27ffbe60bdaba92d616c5eb)
+        ;
+
+        
+    
+    
+                marker_1a62cba834932f8dca45f86709b269f1.setIcon(icon_ed54ec855677d4c78dfab7fcd639e36b);
+            
+    
+            var marker_1d8c6d5ca1ebb4919570dbf5379b2ab3 = L.marker(
+                [43.2237428, 27.9356554],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_eac5e082555deeae27d937ed25cb2a44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_751f7e485e6622c9da7336cb1fac8962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d833ee7b29de633c95cf6c0952ab1a5 = $(`<div id="html_4d833ee7b29de633c95cf6c0952ab1a5" style="width: 100.0%; height: 100.0%;">Technical University of Varna (Nikola Nikolov)</div>`)[0];
+                popup_751f7e485e6622c9da7336cb1fac8962.setContent(html_4d833ee7b29de633c95cf6c0952ab1a5);
+            
+        
+
+        marker_1d8c6d5ca1ebb4919570dbf5379b2ab3.bindPopup(popup_751f7e485e6622c9da7336cb1fac8962)
+        ;
+
+        
+    
+    
+                marker_1d8c6d5ca1ebb4919570dbf5379b2ab3.setIcon(icon_eac5e082555deeae27d937ed25cb2a44);
+            
+    
+            var marker_8db3fc8f9e8c2e251ee4812ec132a3c4 = L.marker(
+                [12.799293, 80.2296313],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_c7db594e5314b11a6c192eb1462fd204 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24de7abee3a5f44ae39ccd671fd357e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22db1cd7d2dd5b0e37e43f5c78969a13 = $(`<div id="html_22db1cd7d2dd5b0e37e43f5c78969a13" style="width: 100.0%; height: 100.0%;">Hindustan University (Nisha MS & Nisha MS)</div>`)[0];
+                popup_24de7abee3a5f44ae39ccd671fd357e8.setContent(html_22db1cd7d2dd5b0e37e43f5c78969a13);
+            
+        
+
+        marker_8db3fc8f9e8c2e251ee4812ec132a3c4.bindPopup(popup_24de7abee3a5f44ae39ccd671fd357e8)
+        ;
+
+        
+    
+    
+                marker_8db3fc8f9e8c2e251ee4812ec132a3c4.setIcon(icon_c7db594e5314b11a6c192eb1462fd204);
+            
+    
+            var marker_913ea671237fd7b9c349b9d060b5de32 = L.marker(
+                [34.8450582, 5.7473592],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_bdb8dffdf53f3109239859391e82fb9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3fb7df9fc04856de3940588a4369488a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f8edd2e273d834e8cd090c9b5938f6f = $(`<div id="html_6f8edd2e273d834e8cd090c9b5938f6f" style="width: 100.0%; height: 100.0%;">university de Biskra (Okba Kraa)</div>`)[0];
+                popup_3fb7df9fc04856de3940588a4369488a.setContent(html_6f8edd2e273d834e8cd090c9b5938f6f);
+            
+        
+
+        marker_913ea671237fd7b9c349b9d060b5de32.bindPopup(popup_3fb7df9fc04856de3940588a4369488a)
+        ;
+
+        
+    
+    
+                marker_913ea671237fd7b9c349b9d060b5de32.setIcon(icon_bdb8dffdf53f3109239859391e82fb9e);
+            
+    
+            var marker_231110d734f7004fb5bd37d8430ef1b6 = L.marker(
+                [-23.2102123, -45.8764544],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_5a2e85e0f55e7d6296f7a05d1867d1f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54a78c4d002bf702a04e6c38fb4cb693 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98a43474cd18ae6fb07f9e076bcbf495 = $(`<div id="html_98a43474cd18ae6fb07f9e076bcbf495" style="width: 100.0%; height: 100.0%;">Instituto Tecnológico de Aeronáutica (Olympio Coutinho & Renato Machado)</div>`)[0];
+                popup_54a78c4d002bf702a04e6c38fb4cb693.setContent(html_98a43474cd18ae6fb07f9e076bcbf495);
+            
+        
+
+        marker_231110d734f7004fb5bd37d8430ef1b6.bindPopup(popup_54a78c4d002bf702a04e6c38fb4cb693)
+        ;
+
+        
+    
+    
+                marker_231110d734f7004fb5bd37d8430ef1b6.setIcon(icon_5a2e85e0f55e7d6296f7a05d1867d1f0);
+            
+    
+            var marker_58895ac4a48c9e5577d74dbeff9ca939 = L.marker(
+                [42.7298969, -73.6796678],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_cbb22d5aaa76c0843b3b614e451bd9d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1e4016ee396fe5b2e104491e3b14829 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01ccf0648a3c558f7c9ba109627db84f = $(`<div id="html_01ccf0648a3c558f7c9ba109627db84f" style="width: 100.0%; height: 100.0%;">Rensselaer Polytechnic Institute (Ozgur Tumuklu & Ozgur Tumuklu & Ozgur Tumuklu & Ozgur Tumuklu & Ozgur Tumuklu & Ozgur Tumuklu & Ozgur Tumuklu)</div>`)[0];
+                popup_e1e4016ee396fe5b2e104491e3b14829.setContent(html_01ccf0648a3c558f7c9ba109627db84f);
+            
+        
+
+        marker_58895ac4a48c9e5577d74dbeff9ca939.bindPopup(popup_e1e4016ee396fe5b2e104491e3b14829)
+        ;
+
+        
+    
+    
+                marker_58895ac4a48c9e5577d74dbeff9ca939.setIcon(icon_cbb22d5aaa76c0843b3b614e451bd9d3);
+            
+    
+            var marker_7b7c55732035337495b5b30aca207069 = L.marker(
+                [41.8547047, 12.6226882],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_32326487377de1fca06fd8edd144288a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15edaa48dbdc98399fbe66a258b1a5ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4b8029fcd9d953e93862a650db6eee4 = $(`<div id="html_f4b8029fcd9d953e93862a650db6eee4" style="width: 100.0%; height: 100.0%;">Università di Roma Tor Vergata (Patrizio Tomei)</div>`)[0];
+                popup_15edaa48dbdc98399fbe66a258b1a5ad.setContent(html_f4b8029fcd9d953e93862a650db6eee4);
+            
+        
+
+        marker_7b7c55732035337495b5b30aca207069.bindPopup(popup_15edaa48dbdc98399fbe66a258b1a5ad)
+        ;
+
+        
+    
+    
+                marker_7b7c55732035337495b5b30aca207069.setIcon(icon_32326487377de1fca06fd8edd144288a);
+            
+    
+            var marker_21ed8574cd3bae40ffc3bb65edb410eb = L.marker(
+                [38.7148959, -9.1939449],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_777a3cb7dcce959522316c1ea309fdd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c27ebd0ca7b0ac4a90d7eec6f7155898 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9255e59837d39fbe6e79aa9ad1e39ddb = $(`<div id="html_9255e59837d39fbe6e79aa9ad1e39ddb" style="width: 100.0%; height: 100.0%;">Universidade Técnica de Lisboa (Paulo Alexandre Crisóstomo Lopes & Paulo Alexandre Crisóstomo Lopes)</div>`)[0];
+                popup_c27ebd0ca7b0ac4a90d7eec6f7155898.setContent(html_9255e59837d39fbe6e79aa9ad1e39ddb);
+            
+        
+
+        marker_21ed8574cd3bae40ffc3bb65edb410eb.bindPopup(popup_c27ebd0ca7b0ac4a90d7eec6f7155898)
+        ;
+
+        
+    
+    
+                marker_21ed8574cd3bae40ffc3bb65edb410eb.setIcon(icon_777a3cb7dcce959522316c1ea309fdd4);
+            
+    
+            var marker_1a71e81f1c09b84cb4155be154ec031a = L.marker(
+                [8.4856117, 124.6560322],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4bfb2fac3cd5e51b0abff514beb0a9c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d354c3e66db436db0eb62af2652bc0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4177d904ea2712efbc69c9d29dd41d1c = $(`<div id="html_4177d904ea2712efbc69c9d29dd41d1c" style="width: 100.0%; height: 100.0%;">Southern University of Science (Peng Yu & Shanfei Su & Xiaowen Shan)</div>`)[0];
+                popup_3d354c3e66db436db0eb62af2652bc0d.setContent(html_4177d904ea2712efbc69c9d29dd41d1c);
+            
+        
+
+        marker_1a71e81f1c09b84cb4155be154ec031a.bindPopup(popup_3d354c3e66db436db0eb62af2652bc0d)
+        ;
+
+        
+    
+    
+                marker_1a71e81f1c09b84cb4155be154ec031a.setIcon(icon_4bfb2fac3cd5e51b0abff514beb0a9c7);
+            
+    
+            var marker_06c94001d13a89bcbb273ff374176446 = L.marker(
+                [22.603603, 113.9968497],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_8da3b34ac49ccc31c413c6d0f7a72c50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae635326676566c04f1f7585edb8b31d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51ff615b8e54eef10ce23a234123e30c = $(`<div id="html_51ff615b8e54eef10ce23a234123e30c" style="width: 100.0%; height: 100.0%;">Southern University of Science and Technology (Peng Yu & Shanfei Su & Xiaowen Shan)</div>`)[0];
+                popup_ae635326676566c04f1f7585edb8b31d.setContent(html_51ff615b8e54eef10ce23a234123e30c);
+            
+        
+
+        marker_06c94001d13a89bcbb273ff374176446.bindPopup(popup_ae635326676566c04f1f7585edb8b31d)
+        ;
+
+        
+    
+    
+                marker_06c94001d13a89bcbb273ff374176446.setIcon(icon_8da3b34ac49ccc31c413c6d0f7a72c50);
+            
+    
+            var marker_e05e3ef5c3776640b9e0e539d9c8877f = L.marker(
+                [34.8450582, 5.7473592],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_7a0d4778f6baebccfa8962a662f050d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_398254c790f6f745b3fe74635d070d75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0f8ab530f56ed29567ffbd391bd481d = $(`<div id="html_a0f8ab530f56ed29567ffbd391bd481d" style="width: 100.0%; height: 100.0%;">université de biskra (Pr. Abdelmalik Ouamane & Pr. Abdelmalik Ouamane & Pr. Abdelmalik Ouamane)</div>`)[0];
+                popup_398254c790f6f745b3fe74635d070d75.setContent(html_a0f8ab530f56ed29567ffbd391bd481d);
+            
+        
+
+        marker_e05e3ef5c3776640b9e0e539d9c8877f.bindPopup(popup_398254c790f6f745b3fe74635d070d75)
+        ;
+
+        
+    
+    
+                marker_e05e3ef5c3776640b9e0e539d9c8877f.setIcon(icon_7a0d4778f6baebccfa8962a662f050d6);
+            
+    
+            var marker_72a35f29be7de7f7ed62c968d417f3eb = L.marker(
+                [35.9516352, -83.9308819],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_0426572f98406f778a9bfa30f558aafb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1293d45008fb97a3146f6a97317c09a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff5f67a81ef06b120c4005d27e554784 = $(`<div id="html_ff5f67a81ef06b120c4005d27e554784" style="width: 100.0%; height: 100.0%;">University of Tennessee (Ragini Acharya)</div>`)[0];
+                popup_1293d45008fb97a3146f6a97317c09a6.setContent(html_ff5f67a81ef06b120c4005d27e554784);
+            
+        
+
+        marker_72a35f29be7de7f7ed62c968d417f3eb.bindPopup(popup_1293d45008fb97a3146f6a97317c09a6)
+        ;
+
+        
+    
+    
+                marker_72a35f29be7de7f7ed62c968d417f3eb.setIcon(icon_0426572f98406f778a9bfa30f558aafb);
+            
+    
+            var marker_f471a37b7e938dd4df5760a863fc76c2 = L.marker(
+                [41.8605744, 12.6204579],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_5f7e1ad05e9e892e53c87c24fd921fe3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41a2edb21a81f8fcf0b88ef038c91e71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c54be53e740fefd43f83c92984e1121 = $(`<div id="html_0c54be53e740fefd43f83c92984e1121" style="width: 100.0%; height: 100.0%;">Tor Vergata (Riccardo Marino)</div>`)[0];
+                popup_41a2edb21a81f8fcf0b88ef038c91e71.setContent(html_0c54be53e740fefd43f83c92984e1121);
+            
+        
+
+        marker_f471a37b7e938dd4df5760a863fc76c2.bindPopup(popup_41a2edb21a81f8fcf0b88ef038c91e71)
+        ;
+
+        
+    
+    
+                marker_f471a37b7e938dd4df5760a863fc76c2.setIcon(icon_5f7e1ad05e9e892e53c87c24fd921fe3);
+            
+    
+            var marker_5e3f2e7790b32343f41075f8b34dbcaa = L.marker(
+                [38.9003393, -77.0481708],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_b346f7fcdbba74e0d8d28a685beee29b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_413dad078d5cbe50eef5083f44b248aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51fdceb85e924dd071145c314d65f0c2 = $(`<div id="html_51fdceb85e924dd071145c314d65f0c2" style="width: 100.0%; height: 100.0%;">University of Rome (Riccardo Marino)</div>`)[0];
+                popup_413dad078d5cbe50eef5083f44b248aa.setContent(html_51fdceb85e924dd071145c314d65f0c2);
+            
+        
+
+        marker_5e3f2e7790b32343f41075f8b34dbcaa.bindPopup(popup_413dad078d5cbe50eef5083f44b248aa)
+        ;
+
+        
+    
+    
+                marker_5e3f2e7790b32343f41075f8b34dbcaa.setIcon(icon_b346f7fcdbba74e0d8d28a685beee29b);
+            
+    
+            var marker_25be3bb35e801e769fbb0318bda55c28 = L.marker(
+                [42.3351053, -71.0892579],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_063a225825270f2424a94ba44c8b30b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb374c3a1429e36d799d3ab507a2a840 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1b407a32bd7eb52c942f4593ee8ff04 = $(`<div id="html_d1b407a32bd7eb52c942f4593ee8ff04" style="width: 100.0%; height: 100.0%;">Northeastern University (Rifat Sipahi)</div>`)[0];
+                popup_cb374c3a1429e36d799d3ab507a2a840.setContent(html_d1b407a32bd7eb52c942f4593ee8ff04);
+            
+        
+
+        marker_25be3bb35e801e769fbb0318bda55c28.bindPopup(popup_cb374c3a1429e36d799d3ab507a2a840)
+        ;
+
+        
+    
+    
+                marker_25be3bb35e801e769fbb0318bda55c28.setIcon(icon_063a225825270f2424a94ba44c8b30b1);
+            
+    
+            var marker_a06d0fb9861b1e8f7548632863ae4b81 = L.marker(
+                [51.4486602, 5.4903996],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_240cbfe3c2d0a5f2790da78dcd4faf45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1dbd735e3ebbdfee64a8a824af7f58fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a96d78be646873227ace1b79d9a4e261 = $(`<div id="html_a96d78be646873227ace1b79d9a4e261" style="width: 100.0%; height: 100.0%;">Eindhoven University of Technology (Rodrigo A. González & Tom Oomen)</div>`)[0];
+                popup_1dbd735e3ebbdfee64a8a824af7f58fc.setContent(html_a96d78be646873227ace1b79d9a4e261);
+            
+        
+
+        marker_a06d0fb9861b1e8f7548632863ae4b81.bindPopup(popup_1dbd735e3ebbdfee64a8a824af7f58fc)
+        ;
+
+        
+    
+    
+                marker_a06d0fb9861b1e8f7548632863ae4b81.setIcon(icon_240cbfe3c2d0a5f2790da78dcd4faf45);
+            
+    
+            var marker_feb0bc6a93dbfbc0d60262d2986dc9f1 = L.marker(
+                [50.9280446, 6.9281305],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_0668a68f9c12b5b57f0da6f6ae862a4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cfb97660584c78dddb7c598bb7ea23c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3d4df8b48ac22d4ceffe25c851083b3 = $(`<div id="html_c3d4df8b48ac22d4ceffe25c851083b3" style="width: 100.0%; height: 100.0%;">Universität zu Köln (Roman Liesenfeld)</div>`)[0];
+                popup_4cfb97660584c78dddb7c598bb7ea23c.setContent(html_c3d4df8b48ac22d4ceffe25c851083b3);
+            
+        
+
+        marker_feb0bc6a93dbfbc0d60262d2986dc9f1.bindPopup(popup_4cfb97660584c78dddb7c598bb7ea23c)
+        ;
+
+        
+    
+    
+                marker_feb0bc6a93dbfbc0d60262d2986dc9f1.setIcon(icon_0668a68f9c12b5b57f0da6f6ae862a4c);
+            
+    
+            var marker_d044a6effd435b2ef2aee3e2975135e3 = L.marker(
+                [1.3484104, 103.6829332],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_3d7fa7fe566105396674c4d31e1c1488 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51ab388ec7c2e0e19fe84bc362d981a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4f46c20db565a6f5f369e591c1c2cf9 = $(`<div id="html_a4f46c20db565a6f5f369e591c1c2cf9" style="width: 100.0%; height: 100.0%;">Nanyang Technological University (Rong Su & Yongping Pan & Yongping Pan & Yongping Pan)</div>`)[0];
+                popup_51ab388ec7c2e0e19fe84bc362d981a1.setContent(html_a4f46c20db565a6f5f369e591c1c2cf9);
+            
+        
+
+        marker_d044a6effd435b2ef2aee3e2975135e3.bindPopup(popup_51ab388ec7c2e0e19fe84bc362d981a1)
+        ;
+
+        
+    
+    
+                marker_d044a6effd435b2ef2aee3e2975135e3.setIcon(icon_3d7fa7fe566105396674c4d31e1c1488);
+            
+    
+            var marker_c24ce064ecde292251dc90ea8b76436f = L.marker(
+                [35.7718497, -78.674087],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4f98d066a6cdda691ade59b7b8437105 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc8636f83c97fbefcc013f6b4a8fc2a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1abe814ba9aaf8d985353960c47441b3 = $(`<div id="html_1abe814ba9aaf8d985353960c47441b3" style="width: 100.0%; height: 100.0%;">NC State University (Ryan DeBoskey & Ryan DeBoskey)</div>`)[0];
+                popup_fc8636f83c97fbefcc013f6b4a8fc2a0.setContent(html_1abe814ba9aaf8d985353960c47441b3);
+            
+        
+
+        marker_c24ce064ecde292251dc90ea8b76436f.bindPopup(popup_fc8636f83c97fbefcc013f6b4a8fc2a0)
+        ;
+
+        
+    
+    
+                marker_c24ce064ecde292251dc90ea8b76436f.setIcon(icon_4f98d066a6cdda691ade59b7b8437105);
+            
+    
+            var marker_6457a949eec70ebedddcf8c2294f3635 = L.marker(
+                [13.7714153, 100.620856],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_cbe597c3aed6c1be86dfa4afbe1415cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3cac443514939a9da71a5f2695b4aa0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddc32af533526c3a31a2c2f23489a91e = $(`<div id="html_ddc32af533526c3a31a2c2f23489a91e" style="width: 100.0%; height: 100.0%;">PI @ MIT (Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela & Sai Czander Ravela)</div>`)[0];
+                popup_3cac443514939a9da71a5f2695b4aa0f.setContent(html_ddc32af533526c3a31a2c2f23489a91e);
+            
+        
+
+        marker_6457a949eec70ebedddcf8c2294f3635.bindPopup(popup_3cac443514939a9da71a5f2695b4aa0f)
+        ;
+
+        
+    
+    
+                marker_6457a949eec70ebedddcf8c2294f3635.setIcon(icon_cbe597c3aed6c1be86dfa4afbe1415cc);
+            
+    
+            var marker_05cf2cf45386fd09fcd5e265c6cc6644 = L.marker(
+                [37.553298, 127.0725984],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_cda81330416d298aa812f18ec7c50f8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05182cfa4efb7cf5da3a32ba4a084bfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_838251f854e623f128f49aa022bb4608 = $(`<div id="html_838251f854e623f128f49aa022bb4608" style="width: 100.0%; height: 100.0%;">Sejong Cyber University (Sangjun Bae)</div>`)[0];
+                popup_05182cfa4efb7cf5da3a32ba4a084bfd.setContent(html_838251f854e623f128f49aa022bb4608);
+            
+        
+
+        marker_05cf2cf45386fd09fcd5e265c6cc6644.bindPopup(popup_05182cfa4efb7cf5da3a32ba4a084bfd)
+        ;
+
+        
+    
+    
+                marker_05cf2cf45386fd09fcd5e265c6cc6644.setIcon(icon_cda81330416d298aa812f18ec7c50f8c);
+            
+    
+            var marker_1c15347c442f6e33763daaf28703c9c2 = L.marker(
+                [35.704462, 51.4095924],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_7f8b724cb81782b1c50cee9a1d4d34ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62681afbfdcef0623e0052f07aac3288 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6249047b4626867d10dca36405687440 = $(`<div id="html_6249047b4626867d10dca36405687440" style="width: 100.0%; height: 100.0%;">Amirkabir University of (Sayyed Majid Esmailifar)</div>`)[0];
+                popup_62681afbfdcef0623e0052f07aac3288.setContent(html_6249047b4626867d10dca36405687440);
+            
+        
+
+        marker_1c15347c442f6e33763daaf28703c9c2.bindPopup(popup_62681afbfdcef0623e0052f07aac3288)
+        ;
+
+        
+    
+    
+                marker_1c15347c442f6e33763daaf28703c9c2.setIcon(icon_7f8b724cb81782b1c50cee9a1d4d34ca);
+            
+    
+            var marker_7bbe3662de072a5430c5bff0cf65daa6 = L.marker(
+                [35.6792492, 139.5583275],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4215f244f63cba857626ecda90321adb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1db967078d824436146656b2d4d3a54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aea0a14806691167c4e2456ef8e03553 = $(`<div id="html_aea0a14806691167c4e2456ef8e03553" style="width: 100.0%; height: 100.0%;">aerospace (Sayyed Majid Esmailifar)</div>`)[0];
+                popup_d1db967078d824436146656b2d4d3a54.setContent(html_aea0a14806691167c4e2456ef8e03553);
+            
+        
+
+        marker_7bbe3662de072a5430c5bff0cf65daa6.bindPopup(popup_d1db967078d824436146656b2d4d3a54)
+        ;
+
+        
+    
+    
+                marker_7bbe3662de072a5430c5bff0cf65daa6.setIcon(icon_4215f244f63cba857626ecda90321adb);
+            
+    
+            var marker_161c3eb6e2bdca9b9cb6542c089308b8 = L.marker(
+                [29.5607862, -95.0882636],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_7e82430942927eb0930c618bffda3895 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b12cfae6c17a9e958d0a9fd3596a3c84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d63fe9df74b04bf457c113cb94675960 = $(`<div id="html_d63fe9df74b04bf457c113cb94675960" style="width: 100.0%; height: 100.0%;">Space Environment (Sean Elvidge)</div>`)[0];
+                popup_b12cfae6c17a9e958d0a9fd3596a3c84.setContent(html_d63fe9df74b04bf457c113cb94675960);
+            
+        
+
+        marker_161c3eb6e2bdca9b9cb6542c089308b8.bindPopup(popup_b12cfae6c17a9e958d0a9fd3596a3c84)
+        ;
+
+        
+    
+    
+                marker_161c3eb6e2bdca9b9cb6542c089308b8.setIcon(icon_7e82430942927eb0930c618bffda3895);
+            
+    
+            var marker_364e68c2f29cfc3f61a8e430d55dcf12 = L.marker(
+                [54.7023545, -3.2765753],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_a565622bdb2ee069d32f994158e61f1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a4b5aa4f11dd1bf49bf7b1ec128c636 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a004567c5c335d940e33b029b9a2c2b = $(`<div id="html_0a004567c5c335d940e33b029b9a2c2b" style="width: 100.0%; height: 100.0%;">UK (Sean Elvidge)</div>`)[0];
+                popup_9a4b5aa4f11dd1bf49bf7b1ec128c636.setContent(html_0a004567c5c335d940e33b029b9a2c2b);
+            
+        
+
+        marker_364e68c2f29cfc3f61a8e430d55dcf12.bindPopup(popup_9a4b5aa4f11dd1bf49bf7b1ec128c636)
+        ;
+
+        
+    
+    
+                marker_364e68c2f29cfc3f61a8e430d55dcf12.setIcon(icon_a565622bdb2ee069d32f994158e61f1f);
+            
+    
+            var marker_57bda7a4d6036e3c6eff53ed362a912e = L.marker(
+                [52.4522956, -1.9312857],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6fc08a18f536b988dcc64424767d8284 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77bd18bde85aafcb309ff4f6254cb666 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fc80f51c023afc45a3015beef4bebbf = $(`<div id="html_4fc80f51c023afc45a3015beef4bebbf" style="width: 100.0%; height: 100.0%;">University of Birmingham (Sean Elvidge)</div>`)[0];
+                popup_77bd18bde85aafcb309ff4f6254cb666.setContent(html_4fc80f51c023afc45a3015beef4bebbf);
+            
+        
+
+        marker_57bda7a4d6036e3c6eff53ed362a912e.bindPopup(popup_77bd18bde85aafcb309ff4f6254cb666)
+        ;
+
+        
+    
+    
+                marker_57bda7a4d6036e3c6eff53ed362a912e.setIcon(icon_6fc08a18f536b988dcc64424767d8284);
+            
+    
+            var marker_fe74f56bb5cca10924ce542d1e6129d8 = L.marker(
+                [28.5449971, 77.1891506],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1a17e27379448ed2127e52ff27e3b177 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgreen",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8c78d6bea5e5c698b3e8977d46346c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa7387a955ce0200a4cb7bf90806fc77 = $(`<div id="html_aa7387a955ce0200a4cb7bf90806fc77" style="width: 100.0%; height: 100.0%;">Indian Institute of Technology Delhi (Shubhendu Bhasin)</div>`)[0];
+                popup_c8c78d6bea5e5c698b3e8977d46346c9.setContent(html_aa7387a955ce0200a4cb7bf90806fc77);
+            
+        
+
+        marker_fe74f56bb5cca10924ce542d1e6129d8.bindPopup(popup_c8c78d6bea5e5c698b3e8977d46346c9)
+        ;
+
+        
+    
+    
+                marker_fe74f56bb5cca10924ce542d1e6129d8.setIcon(icon_1a17e27379448ed2127e52ff27e3b177);
+            
+    
+            var marker_ec98450a1f4982262c6a288a5d7b0dd4 = L.marker(
+                [16.4073755, 120.6021132],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6795eeb4a6e56e864540e4154eb1b491 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2940e74f3a338f01eca20eda413271b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9ab41de3473632f54db6c48aae15428 = $(`<div id="html_d9ab41de3473632f54db6c48aae15428" style="width: 100.0%; height: 100.0%;">R&D Engineer (Ph.D.) (Sifeddine Benahmed)</div>`)[0];
+                popup_2940e74f3a338f01eca20eda413271b1.setContent(html_d9ab41de3473632f54db6c48aae15428);
+            
+        
+
+        marker_ec98450a1f4982262c6a288a5d7b0dd4.bindPopup(popup_2940e74f3a338f01eca20eda413271b1)
+        ;
+
+        
+    
+    
+                marker_ec98450a1f4982262c6a288a5d7b0dd4.setIcon(icon_6795eeb4a6e56e864540e4154eb1b491);
+            
+    
+            var marker_b962b24c3477ca1026814e82884da4a1 = L.marker(
+                [32.0576478, 118.7882819],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_b30544ad0cc72d2b2e736ec5fb25bf7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71460583e15767a7ab058b7dfdc696f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8556f2751b1a41484c9f831a36a8e63a = $(`<div id="html_8556f2751b1a41484c9f831a36a8e63a" style="width: 100.0%; height: 100.0%;">Southeast University (Simone Baldi & Simone Baldi & Simone Baldi & Tian Shi & Tian Shi & Tian Shi)</div>`)[0];
+                popup_71460583e15767a7ab058b7dfdc696f7.setContent(html_8556f2751b1a41484c9f831a36a8e63a);
+            
+        
+
+        marker_b962b24c3477ca1026814e82884da4a1.bindPopup(popup_71460583e15767a7ab058b7dfdc696f7)
+        ;
+
+        
+    
+    
+                marker_b962b24c3477ca1026814e82884da4a1.setIcon(icon_b30544ad0cc72d2b2e736ec5fb25bf7c);
+            
+    
+            var marker_5f02d32a4b33a5eb00714f6674bebcd8 = L.marker(
+                [45.4222633, -75.7390982],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_64d21fff242f44b0c3298007df14b9cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1016a93737b15ab497c936f23b61bcdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc9952b8229f8c97dfdfcbc816b01394 = $(`<div id="html_cc9952b8229f8c97dfdfcbc816b01394" style="width: 100.0%; height: 100.0%;">Université du Québec en Outaouais (Soulaimane Berkane)</div>`)[0];
+                popup_1016a93737b15ab497c936f23b61bcdf.setContent(html_cc9952b8229f8c97dfdfcbc816b01394);
+            
+        
+
+        marker_5f02d32a4b33a5eb00714f6674bebcd8.bindPopup(popup_1016a93737b15ab497c936f23b61bcdf)
+        ;
+
+        
+    
+    
+                marker_5f02d32a4b33a5eb00714f6674bebcd8.setIcon(icon_64d21fff242f44b0c3298007df14b9cd);
+            
+    
+            var marker_987ff368296c9c26d68f022c282b19d2 = L.marker(
+                [37.550848, 127.0746074],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_4ee5b5ea4484c3ccf690a214187960c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a1e1080699f6e4ebb4e3eb8767e7c97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2811e8d68c222d5ac2d258bb4c768e2f = $(`<div id="html_2811e8d68c222d5ac2d258bb4c768e2f" style="width: 100.0%; height: 100.0%;">Sejong University (Sung Kyung Hong)</div>`)[0];
+                popup_1a1e1080699f6e4ebb4e3eb8767e7c97.setContent(html_2811e8d68c222d5ac2d258bb4c768e2f);
+            
+        
+
+        marker_987ff368296c9c26d68f022c282b19d2.bindPopup(popup_1a1e1080699f6e4ebb4e3eb8767e7c97)
+        ;
+
+        
+    
+    
+                marker_987ff368296c9c26d68f022c282b19d2.setIcon(icon_4ee5b5ea4484c3ccf690a214187960c1);
+            
+    
+            var marker_4f006ec8f55811a980919092284a0b0a = L.marker(
+                [35.660548, 139.7950539],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_fc77526608ae1720ac0a360012ee52b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6908b15ee4b8af9c5876b7acdf82ca9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee37a3d32e7640ba64f528620930d04f = $(`<div id="html_ee37a3d32e7640ba64f528620930d04f" style="width: 100.0%; height: 100.0%;">Shibaura Institute of Technology (TSURUHARA Satoshi)</div>`)[0];
+                popup_e6908b15ee4b8af9c5876b7acdf82ca9.setContent(html_ee37a3d32e7640ba64f528620930d04f);
+            
+        
+
+        marker_4f006ec8f55811a980919092284a0b0a.bindPopup(popup_e6908b15ee4b8af9c5876b7acdf82ca9)
+        ;
+
+        
+    
+    
+                marker_4f006ec8f55811a980919092284a0b0a.setIcon(icon_fc77526608ae1720ac0a360012ee52b8);
+            
+    
+            var marker_436e117806e5f2fdfc12e6b9beb64f68 = L.marker(
+                [35.0234513, 135.7798129],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_55ace120da9d986a355129b2ecc30129 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba8f0f28f57bf322a7f85160c24979d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d652c66eaa06634fbc3d49499b515f5 = $(`<div id="html_0d652c66eaa06634fbc3d49499b515f5" style="width: 100.0%; height: 100.0%;">Kyoto University (Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen & Tam W. Nguyen)</div>`)[0];
+                popup_ba8f0f28f57bf322a7f85160c24979d7.setContent(html_0d652c66eaa06634fbc3d49499b515f5);
+            
+        
+
+        marker_436e117806e5f2fdfc12e6b9beb64f68.bindPopup(popup_ba8f0f28f57bf322a7f85160c24979d7)
+        ;
+
+        
+    
+    
+                marker_436e117806e5f2fdfc12e6b9beb64f68.setIcon(icon_55ace120da9d986a355129b2ecc30129);
+            
+    
+            var marker_d13c3bec86fbaedd16210c78aa31fd7e = L.marker(
+                [3.0639234, 101.6007834],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_32a64a46c94dc169720b16da66e37f31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "beige",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f3fe77f330e69cb1845e300ba8edc22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5bbb55754b6e112a481671632407b81 = $(`<div id="html_d5bbb55754b6e112a481671632407b81" style="width: 100.0%; height: 100.0%;">Monash University Malaysia (Tan Chee Pin & Tan Chee Pin)</div>`)[0];
+                popup_7f3fe77f330e69cb1845e300ba8edc22.setContent(html_d5bbb55754b6e112a481671632407b81);
+            
+        
+
+        marker_d13c3bec86fbaedd16210c78aa31fd7e.bindPopup(popup_7f3fe77f330e69cb1845e300ba8edc22)
+        ;
+
+        
+    
+    
+                marker_d13c3bec86fbaedd16210c78aa31fd7e.setIcon(icon_32a64a46c94dc169720b16da66e37f31);
+            
+    
+            var marker_c1d3b9d1829158eb28ae7c53c0cf93a6 = L.marker(
+                [45.1911392, 5.7700458],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_a7c553b57c0c448c829006cddb732813 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8426a89b1480ad091c1a5c2296d12ca5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9e57f84340dafdb9c810d70ae4702b2 = $(`<div id="html_a9e57f84340dafdb9c810d70ae4702b2" style="width: 100.0%; height: 100.0%;">Institut Universitaire de France (Tarek Hamel)</div>`)[0];
+                popup_8426a89b1480ad091c1a5c2296d12ca5.setContent(html_a9e57f84340dafdb9c810d70ae4702b2);
+            
+        
+
+        marker_c1d3b9d1829158eb28ae7c53c0cf93a6.bindPopup(popup_8426a89b1480ad091c1a5c2296d12ca5)
+        ;
+
+        
+    
+    
+                marker_c1d3b9d1829158eb28ae7c53c0cf93a6.setIcon(icon_a7c553b57c0c448c829006cddb732813);
+            
+    
+            var marker_1056aa5c0baf8c18e1a5af849ba36032 = L.marker(
+                [43.7170132, 7.2675774],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_79a39d453f8194f2294fbfc0da343086 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5602cdfdf63f482f4dd679e054ad0ae4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccd0d7bf60af9a410ecefe88020e52d9 = $(`<div id="html_ccd0d7bf60af9a410ecefe88020e52d9" style="width: 100.0%; height: 100.0%;">Université Côte d'Azur (Tarek Hamel)</div>`)[0];
+                popup_5602cdfdf63f482f4dd679e054ad0ae4.setContent(html_ccd0d7bf60af9a410ecefe88020e52d9);
+            
+        
+
+        marker_1056aa5c0baf8c18e1a5af849ba36032.bindPopup(popup_5602cdfdf63f482f4dd679e054ad0ae4)
+        ;
+
+        
+    
+    
+                marker_1056aa5c0baf8c18e1a5af849ba36032.setIcon(icon_79a39d453f8194f2294fbfc0da343086);
+            
+    
+            var marker_c8b6a6ffc992eeb97ebba9cb21add118 = L.marker(
+                [22.3223754, 39.1173835],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_027e19b61f5d19a1f45067eda6aa886d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9a46ee2efa974f14ff018239652a93e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9caf80e33cde47fe67ff733f3a8adbae = $(`<div id="html_9caf80e33cde47fe67ff733f3a8adbae" style="width: 100.0%; height: 100.0%;">King Abdullah University of Science and Technology (Tarig Ballal & Tarig Ballal)</div>`)[0];
+                popup_d9a46ee2efa974f14ff018239652a93e.setContent(html_9caf80e33cde47fe67ff733f3a8adbae);
+            
+        
+
+        marker_c8b6a6ffc992eeb97ebba9cb21add118.bindPopup(popup_d9a46ee2efa974f14ff018239652a93e)
+        ;
+
+        
+    
+    
+                marker_c8b6a6ffc992eeb97ebba9cb21add118.setIcon(icon_027e19b61f5d19a1f45067eda6aa886d);
+            
+    
+            var marker_a656291b7e5feb1c2d2dcd1873ff3f42 = L.marker(
+                [52.4861905, -1.8884689],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_a6221cd472e63f5d74b2f66ba702bc00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d3a3b428491e8e97799095664b40988 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7c2cc55728ced8626aefa49da699bee = $(`<div id="html_a7c2cc55728ced8626aefa49da699bee" style="width: 100.0%; height: 100.0%;">Aston University (Victor Chang (Data Scientist,Industry 5.0-Cloud/IoT/DS/Security/AI/IS/IM Expert/Winner/Highly Cited))</div>`)[0];
+                popup_8d3a3b428491e8e97799095664b40988.setContent(html_a7c2cc55728ced8626aefa49da699bee);
+            
+        
+
+        marker_a656291b7e5feb1c2d2dcd1873ff3f42.bindPopup(popup_8d3a3b428491e8e97799095664b40988)
+        ;
+
+        
+    
+    
+                marker_a656291b7e5feb1c2d2dcd1873ff3f42.setIcon(icon_a6221cd472e63f5d74b2f66ba702bc00);
+            
+    
+            var marker_d553457b58829d59fe866bc776e066f9 = L.marker(
+                [50.8674377, -0.0877259],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_ccf0d437053e489c699ab16711e42237 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0348e658bd4f08167abad990a781d301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dc2d8de621fd65dec7590f115c5928b = $(`<div id="html_3dc2d8de621fd65dec7590f115c5928b" style="width: 100.0%; height: 100.0%;">University of Sussex (Yanan Li)</div>`)[0];
+                popup_0348e658bd4f08167abad990a781d301.setContent(html_3dc2d8de621fd65dec7590f115c5928b);
+            
+        
+
+        marker_d553457b58829d59fe866bc776e066f9.bindPopup(popup_0348e658bd4f08167abad990a781d301)
+        ;
+
+        
+    
+    
+                marker_d553457b58829d59fe866bc776e066f9.setIcon(icon_ccf0d437053e489c699ab16711e42237);
+            
+    
+            var marker_dc735a070cec2ad5a0dd85b72b2e3e64 = L.marker(
+                [25.1079201, 55.4138761],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_3daa3221974b4481278f0973ac1119db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa6457ea6be27ca1ca71487457ac09f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5b34c8ed2f988395362ece3ef62059e = $(`<div id="html_c5b34c8ed2f988395362ece3ef62059e" style="width: 100.0%; height: 100.0%;">University of Dubai (Yassine Himeur, PhD, SMIEEE & Yassine Himeur, PhD, SMIEEE & Yassine Himeur, PhD, SMIEEE)</div>`)[0];
+                popup_aa6457ea6be27ca1ca71487457ac09f7.setContent(html_c5b34c8ed2f988395362ece3ef62059e);
+            
+        
+
+        marker_dc735a070cec2ad5a0dd85b72b2e3e64.bindPopup(popup_aa6457ea6be27ca1ca71487457ac09f7)
+        ;
+
+        
+    
+    
+                marker_dc735a070cec2ad5a0dd85b72b2e3e64.setIcon(icon_3daa3221974b4481278f0973ac1119db);
+            
+    
+            var marker_f7cdc5217c985e07a89241b772a33609 = L.marker(
+                [30.521595, 120.7195312],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_f8c61570fd88b1b4492d45c66ba2663c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9bfaf1795086d7ff19a220931caee2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ef2b20c58160ce9cac0f06b4bfa2dc0 = $(`<div id="html_4ef2b20c58160ce9cac0f06b4bfa2dc0" style="width: 100.0%; height: 100.0%;">Zhejiang University (Yiming Fei)</div>`)[0];
+                popup_f9bfaf1795086d7ff19a220931caee2e.setContent(html_4ef2b20c58160ce9cac0f06b4bfa2dc0);
+            
+        
+
+        marker_f7cdc5217c985e07a89241b772a33609.bindPopup(popup_f9bfaf1795086d7ff19a220931caee2e)
+        ;
+
+        
+    
+    
+                marker_f7cdc5217c985e07a89241b772a33609.setIcon(icon_f8c61570fd88b1b4492d45c66ba2663c);
+            
+    
+            var marker_0cc00cfb9ef6dd9f69e008b0de44ece5 = L.marker(
+                [30.5202172, 114.4118463],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_6884ff9cca83d6d502c130c0c9e4f81f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7af79c1e430bb81ce62b4d84316b7be5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1236550fcbb30df2d51e2d29e01da3e7 = $(`<div id="html_1236550fcbb30df2d51e2d29e01da3e7" style="width: 100.0%; height: 100.0%;">Huazhong University of Science (Yiming Wan & Yiming Wan & Yiming Wan)</div>`)[0];
+                popup_7af79c1e430bb81ce62b4d84316b7be5.setContent(html_1236550fcbb30df2d51e2d29e01da3e7);
+            
+        
+
+        marker_0cc00cfb9ef6dd9f69e008b0de44ece5.bindPopup(popup_7af79c1e430bb81ce62b4d84316b7be5)
+        ;
+
+        
+    
+    
+                marker_0cc00cfb9ef6dd9f69e008b0de44ece5.setIcon(icon_6884ff9cca83d6d502c130c0c9e4f81f);
+            
+    
+            var marker_49964429f894c22e042f70a3da1d3540 = L.marker(
+                [30.5202172, 114.4118463],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_aa86a81f8530cef2d53d2b7fd18fec8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a5fcf1170bf9d7acbe13b795ce11f9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b90a5e21debd6ea94219d86d2602fde0 = $(`<div id="html_b90a5e21debd6ea94219d86d2602fde0" style="width: 100.0%; height: 100.0%;">Huazhong University of Science and Technology (Yiming Wan & Yiming Wan & Yiming Wan)</div>`)[0];
+                popup_4a5fcf1170bf9d7acbe13b795ce11f9f.setContent(html_b90a5e21debd6ea94219d86d2602fde0);
+            
+        
+
+        marker_49964429f894c22e042f70a3da1d3540.bindPopup(popup_4a5fcf1170bf9d7acbe13b795ce11f9f)
+        ;
+
+        
+    
+    
+                marker_49964429f894c22e042f70a3da1d3540.setIcon(icon_aa86a81f8530cef2d53d2b7fd18fec8c);
+            
+    
+            var marker_a0e1e1dbca6efe18049572764031cd0f = L.marker(
+                [31.1628058, 121.4116751],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_785c4e6b8d19f6e9a3db8a6f9258cfb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f303da415757785dcdb04c0f22c926e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fc32720849f5011624307c3c0ca7873 = $(`<div id="html_3fc32720849f5011624307c3c0ca7873" style="width: 100.0%; height: 100.0%;">Shanghai Normal University (Yonghong Tan)</div>`)[0];
+                popup_f303da415757785dcdb04c0f22c926e0.setContent(html_3fc32720849f5011624307c3c0ca7873);
+            
+        
+
+        marker_a0e1e1dbca6efe18049572764031cd0f.bindPopup(popup_f303da415757785dcdb04c0f22c926e0)
+        ;
+
+        
+    
+    
+                marker_a0e1e1dbca6efe18049572764031cd0f.setIcon(icon_785c4e6b8d19f6e9a3db8a6f9258cfb5);
+            
+    
+            var marker_4217c9e597bc2dd5d26c94324b0dcc11 = L.marker(
+                [-38.1026917, 144.3579854],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_545a3c604784e4d498114af5205246df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e948d80bcb2df3c56cdbc149f2365db4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b73d1dbcbb455db12af9fac78d3a3916 = $(`<div id="html_b73d1dbcbb455db12af9fac78d3a3916" style="width: 100.0%; height: 100.0%;">Ford Motor Company (Yousaf Rahman & Yousaf Rahman)</div>`)[0];
+                popup_e948d80bcb2df3c56cdbc149f2365db4.setContent(html_b73d1dbcbb455db12af9fac78d3a3916);
+            
+        
+
+        marker_4217c9e597bc2dd5d26c94324b0dcc11.bindPopup(popup_e948d80bcb2df3c56cdbc149f2365db4)
+        ;
+
+        
+    
+    
+                marker_4217c9e597bc2dd5d26c94324b0dcc11.setIcon(icon_545a3c604784e4d498114af5205246df);
+            
+    
+            var marker_def20c4422028d9f1bd9b7928fb27a19 = L.marker(
+                [30.5373581, 114.361517],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_1e689c4dd5e5684729a801545ce3bd6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e74581201d7c6b6ab9db0abfe457e57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_575e99548762d1eba9ebf4241337c1c9 = $(`<div id="html_575e99548762d1eba9ebf4241337c1c9" style="width: 100.0%; height: 100.0%;">Wuhan University (Yulin Hu)</div>`)[0];
+                popup_5e74581201d7c6b6ab9db0abfe457e57.setContent(html_575e99548762d1eba9ebf4241337c1c9);
+            
+        
+
+        marker_def20c4422028d9f1bd9b7928fb27a19.bindPopup(popup_5e74581201d7c6b6ab9db0abfe457e57)
+        ;
+
+        
+    
+    
+                marker_def20c4422028d9f1bd9b7928fb27a19.setIcon(icon_1e689c4dd5e5684729a801545ce3bd6b);
+            
+    
+            var marker_21de5421e1ae861321f1e3219176c6c3 = L.marker(
+                [28.58878, -81.1981345],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_d02405adbba7dce5ec467c083148841b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6a2c3e5979a287a8ad102146fdc56d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cff5670ec798d9e3f9aa329d07376c0 = $(`<div id="html_5cff5670ec798d9e3f9aa329d07376c0" style="width: 100.0%; height: 100.0%;">University University (Yutao Jing & Yutao Jing)</div>`)[0];
+                popup_a6a2c3e5979a287a8ad102146fdc56d0.setContent(html_5cff5670ec798d9e3f9aa329d07376c0);
+            
+        
+
+        marker_21de5421e1ae861321f1e3219176c6c3.bindPopup(popup_a6a2c3e5979a287a8ad102146fdc56d0)
+        ;
+
+        
+    
+    
+                marker_21de5421e1ae861321f1e3219176c6c3.setIcon(icon_d02405adbba7dce5ec467c083148841b);
+            
+    
+            var marker_2e5a678ad6f60f9d592d334a3f73f69b = L.marker(
+                [5.5000085, -71.5000086],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_acac36e31817b1530c38a0c03eb22765 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4421c3d32005dcd8deb9ae7e3b00ada7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24fef5af36cd7d9d032895069d0aa348 = $(`<div id="html_24fef5af36cd7d9d032895069d0aa348" style="width: 100.0%; height: 100.0%;">CAS (Zhao Yanlong)</div>`)[0];
+                popup_4421c3d32005dcd8deb9ae7e3b00ada7.setContent(html_24fef5af36cd7d9d032895069d0aa348);
+            
+        
+
+        marker_2e5a678ad6f60f9d592d334a3f73f69b.bindPopup(popup_4421c3d32005dcd8deb9ae7e3b00ada7)
+        ;
+
+        
+    
+    
+                marker_2e5a678ad6f60f9d592d334a3f73f69b.setIcon(icon_acac36e31817b1530c38a0c03eb22765);
+            
+    
+            var marker_9a2f0fc003725dae59f2d847f27d4fd3 = L.marker(
+                [34.8450582, 5.7473592],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_51a0d3cfc1ccce580441b4ba0a9f22ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02506ac71ff78556a4e16dae7eb40b7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1a87608c145e59e8f0b2eb3692b141c = $(`<div id="html_d1a87608c145e59e8f0b2eb3692b141c" style="width: 100.0%; height: 100.0%;">Université de Biskra (boumehraz Mohamed & boumehraz Mohamed)</div>`)[0];
+                popup_02506ac71ff78556a4e16dae7eb40b7a.setContent(html_d1a87608c145e59e8f0b2eb3692b141c);
+            
+        
+
+        marker_9a2f0fc003725dae59f2d847f27d4fd3.bindPopup(popup_02506ac71ff78556a4e16dae7eb40b7a)
+        ;
+
+        
+    
+    
+                marker_9a2f0fc003725dae59f2d847f27d4fd3.setIcon(icon_51a0d3cfc1ccce580441b4ba0a9f22ea);
+            
+    
+            var marker_0ea891347c06dfc5eba9184a4cd87715 = L.marker(
+                [39.926778, 116.2021312],
+                {
+}
+            ).addTo(map_7a8efa1c3a93d23e10176e1ea673ea36);
+        
+    
+            var icon_580ee8604d8abaaa19afd5a47f718585 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32224b5281e501b0307794ab9301277d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e04201522ef72d6a623987472d4af4b7 = $(`<div id="html_e04201522ef72d6a623987472d4af4b7" style="width: 100.0%; height: 100.0%;">North China University of Technology (jingcheng guo)</div>`)[0];
+                popup_32224b5281e501b0307794ab9301277d.setContent(html_e04201522ef72d6a623987472d4af4b7);
+            
+        
+
+        marker_0ea891347c06dfc5eba9184a4cd87715.bindPopup(popup_32224b5281e501b0307794ab9301277d)
+        ;
+
+        
+    
+    
+                marker_0ea891347c06dfc5eba9184a4cd87715.setIcon(icon_580ee8604d8abaaa19afd5a47f718585);
+            
+</script>
+</html>
