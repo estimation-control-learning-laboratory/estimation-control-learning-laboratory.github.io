@@ -2,8 +2,8 @@
 title: CELL
 email: ankgoel@umbc.edu
 description: Academic webpage of the Control, Estimation and Learning Laboratory (CELL)
+url: "https://estimation-control-learning-laboratory.github.io"
 baseurl: ""
-url: ""
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
