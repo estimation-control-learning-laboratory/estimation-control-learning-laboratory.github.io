@@ -26,5 +26,4 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 I am an Assistant Professor of Mechanical Engineering at the University of Maryland, Baltimore County (UMBC), where I direct the Estimation, Control, and Learning Laboratory (ECLL).
 My research focuses on developing data-driven and learning-based control and estimation techniques for complex mechanical and aerospace systems.
-At ECLL, we integrate tools from linear and nonlinear system theory, optimization, and machine learning to create adaptive algorithms that enable robust, real-time decision-making in uncertain and dynamic environments. 
-Our work spans a range of applications, including robotics, autonomous systems, and unmanned aerial vehicles (UAVs).
+At ECLL, we integrate tools from linear and nonlinear system theory, optimization, and machine learning to create adaptive algorithms that enable robust, real-time decision-making in uncertain and dynamic environments. Our work spans a range of applications, including robotics, autonomous systems, and unmanned aerial vehicles (UAVs).
