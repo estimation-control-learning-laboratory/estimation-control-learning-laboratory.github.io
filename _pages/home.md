@@ -14,9 +14,8 @@ Our research focuses on developing advanced control strategies for complex cyber
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
+<img src="https://ankgoel.umbc.edu/wp-content/uploads/sites/687/2025/01/ECLL-768x549.png" width="100%" alt="ECLL lab photo"/><br/>
+Estimation, Control, and Learning Laboratory (ECLL) — lab photo.
 </center>
 </div>
 </div>
