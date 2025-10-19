@@ -23,6 +23,22 @@ pre{
 </style>
 
 
+{%- assign is_arxiv = false -%}
+{%- if entry.type == 'unpublished' -%}
+    {%- assign is_arxiv = true -%}
+{%- endif -%}
+{%- if entry.journal and entry.journal contains "arXiv" -%}
+    {%- assign is_arxiv = true -%}
+{%- endif -%}
+
+{%- if is_arxiv -%}
+    <div style="display:inline-block; margin-bottom:6px;
+                            background:#f0f8ff; color:#333; border:1px solid #cfe8ff;
+                            padding:2px 6px; border-radius:4px; font-size:0.85em;">
+        Preprint (arXiv)
+    </div>
+{% endif %}
+
 <div class="text-justify">{{reference}}</div>
 
 <!-- You can use the below to make your name bold -->

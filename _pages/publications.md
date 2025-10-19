@@ -19,7 +19,11 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 <div class="jumbotron">
 ### Preprints
 {% bibliography --query @unpublished %}
-{# also include articles whose journal field indicates an arXiv preprint #}
+</div>
+
+<div class="jumbotron">
+### arXiv preprints
+{% comment %}Articles listed on arXiv (journal field contains 'arXiv'){% endcomment %}
 {% bibliography --query @article[journal *= arXiv] %}
 </div>
 
