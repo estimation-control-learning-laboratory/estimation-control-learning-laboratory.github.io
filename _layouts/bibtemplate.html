@@ -27,8 +27,11 @@ pre{
 {%- if entry.type == 'unpublished' -%}
     {%- assign is_arxiv = true -%}
 {%- endif -%}
-{%- if entry.journal and entry.journal contains "arXiv" -%}
-    {%- assign is_arxiv = true -%}
+{%- if entry.journal -%}
+    {%- assign journal_lc = entry.journal | downcase -%}
+    {%- if journal_lc contains "arxiv" -%}
+        {%- assign is_arxiv = true -%}
+    {%- endif -%}
 {%- endif -%}
 
 {%- if is_arxiv -%}
@@ -67,11 +70,11 @@ pre{
 {% endif %}
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
-<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
+<button class="btn btn-danger btm-sm bib-toggle" data-key="{{entry.key}}">BIB</button>
 {% endif %}
 
 {% if entry.abstract %}
-<button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+<button class="btn btn-warning btm-sm abstract-toggle" data-key="{{entry.key}}">ABSTRACT</button>
 {% endif %}
 
 {% if entry.abstract %}
@@ -89,20 +92,24 @@ pre{
 </div>
 
 <script>
-function toggleBibtex{{entry.key}}(parameter) {
-    var x= document.getElementById('a{{entry.key}}');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
+// Delegated handler for toggling BibTeX and Abstract panels.
+document.addEventListener('click', function (e) {
+    var t = e.target;
+    // Walk up in case the click is on the button's inner text/span
+    while (t && t !== document) {
+        if (t.classList && t.classList.contains('bib-toggle')) {
+            var k = t.getAttribute('data-key');
+            var panel = document.getElementById('a' + k);
+            if (panel) panel.style.display = (panel.style.display === 'none' || panel.style.display === '') ? 'block' : 'none';
+            return;
+        }
+        if (t.classList && t.classList.contains('abstract-toggle')) {
+            var k2 = t.getAttribute('data-key');
+            var panel2 = document.getElementById('b' + k2);
+            if (panel2) panel2.style.display = (panel2.style.display === 'none' || panel2.style.display === '') ? 'block' : 'none';
+            return;
+        }
+        t = t.parentNode;
     }
-}
-function toggleAbstract{{entry.key}}(parameter) {
-    var x= document.getElementById('b{{entry.key}}');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
+});
 </script>
