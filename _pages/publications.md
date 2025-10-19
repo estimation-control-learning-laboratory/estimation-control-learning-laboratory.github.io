@@ -19,11 +19,14 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 <div class="jumbotron">
 ### Preprints
 {% bibliography --query @unpublished %}
+{# also include articles whose journal field indicates an arXiv preprint #}
+{% bibliography --query @article[journal *= arXiv] %}
 </div>
 
 <div class="jumbotron">
 ### Refereed journal articles
-{% bibliography --query @article %}
+{# exclude article entries that are arXiv preprints (journal contains 'arXiv') #}
+{% bibliography --query @article[journal !*= arXiv] %}
 </div>
 
 <div class="jumbotron">
