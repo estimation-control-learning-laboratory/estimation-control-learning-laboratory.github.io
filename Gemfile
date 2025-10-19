@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem "jekyll", "4.3.3"
 gem "rack", ">= 2.2.3"
 gem "kramdown-parser-gfm"
+gem 'github-pages'
+gem "jekyll-include-cache"
 gem 'jekyll-scholar'
 gem "webrick", "~> 1.7"
 gem "csv"
