@@ -14,7 +14,7 @@ Our research focuses on developing advanced control strategies for complex cyber
 <div class="container">
 <div class="row">
 <center>
-<img src="https://ankgoel.umbc.edu/wp-content/uploads/sites/687/2025/01/ECLL-768x549.png" width="100%" alt="ECLL lab photo"/><br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/ECLL-2025.png" width="100%" alt="ECLL lab photo"/><br/>
 Estimation, Control, and Learning Laboratory (ECLL) — lab photo.
 </center>
 </div>
