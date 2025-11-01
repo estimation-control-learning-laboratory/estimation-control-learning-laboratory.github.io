@@ -77,3 +77,15 @@ permalink: /about/
   {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
   </div>
 </div>
+
+<div class="jumbotron">
+  <h3>Teaching</h3>
+  <ul>
+    <li>Introduction to Physics (1961--63) <a href="https://www.feynmanlectures.caltech.edu/">Textbook here!</a></li>
+    <li>ENME 221: Dynamics</li>
+    <li>ENME 303: Computational Methods</li>
+    <li>ENME 403: Automatic Controls</li>
+    <li>ENME 605: Advanced Control Systems</li>
+    <li>ENME 662: Dynamics</li>
+  </ul>
+</div>
