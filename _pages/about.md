@@ -59,6 +59,7 @@ permalink: /about/
 </div>
 {% endif %}
 
+<!--
 {% if site.data.people %}
 
 <div class="jumbotron">
