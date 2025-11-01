@@ -3,9 +3,39 @@
 #  duration: In the lab 2015-18
 #  info: Now at Univeristy of X
 #  email: exampleemail@gmail.com
+- name: Conor Fitzpatrick
+  photo: conor.jpeg
+  duration: In the lab Spring 2024 - Summer 2025
+  info: Graduated with M.S. in Mechanical Engineering, UMBC
+#  email: exampleemail@gmail.com
 
 - name: August Phelps
   photo: August.jpeg
   duration: In the lab Fall 2023 - Spring 2025
   info: Johns Hopkins University, PhD Candidate
+#  email: exampleemail@gmail.com
+
+- name: Salman Mirza
+  photo: salman.jpeg
+  duration: In the lab Fall 2023 - Spring 2025
+  info: Johns Hopkins University, PhD Candidate
+#  email: exampleemail@gmail.com
+
+- name: Turibius Rozario
+  photo: turibius.jpeg
+  duration: In the lab Spring 2022 - Fall 2024
+  info: Boston University, PhD Candidate
+#  email: exampleemail@gmail.com
+
+- name: Jacob Lombardo
+  photo: jacob.jpeg
+  duration: In the lab Summer 2022 - Spring 2023
+  info: Johns Hopkins University, PhD Candidate
+#  email: exampleemail@gmail.com
+
+
+- name: Anh Thi Le
+  photo: anhthi.jpeg
+  duration: In the lab Spring 2023 - Summer 2024
+  #info: Johns Hopkins University, PhD Candidate
 #  email: exampleemail@gmail.com
