@@ -29,6 +29,7 @@ permalink: /team/
 <ul style="overflow: hidden">
 <li> {{ member.education[0] }} </li>
 <li> {{ member.education[1] }} </li>
+<li> {{ member.education[2] }} </li>
 </ul>
 </div>
 </div>
