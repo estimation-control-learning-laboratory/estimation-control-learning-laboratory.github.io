@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Interesting Reads"
 layout: page
 sitemap: false
 permalink: /blogs/

@@ -5,20 +5,29 @@ sitemap: false
 permalink: /
 ---
 
-#### Welcome!
+## Welcome!
 
 At Control Estimation, and Learning Laboratory (CELL), we design intelligent and adaptive controllers and estimators that thrive in unpredictable, real-world environments. We blend control theory, optimization, and machine learning to make robots, drones, and autonomous systems smarter, faster, and more robust.
 
 ### What We Do
 **Control of complex cyber-physical systems**
 
-**Our mission**: develop adaptive and learning algorithms that keep systems stable and performing when everything else goes off track.
+We develop adaptive and learning algorithms that keep systems stable and performing when everything else goes off track.
 
 - From aircraft and multicopters to robots and autonomous vehicles.
 - Real-time learning, sudden disturbance recovery, broad operational envelopes.
 
-Data-driven estimation in dynamic systems
-We craft computationally efficient, data-intensive methods for state and parameter estimation in challenging environments — from turbulence in airflow to rapid state changes in UAVs.
+**Data-driven estimation in dynamic systems**
+
+We craft computationally efficient, data-driven algorithms for state and parameter estimation in complex dynamic systems including atmospheric and flow models, enabling real-time prediction and control with improved accuracy and performance.
+
+### Why It Matters
+
+Autonomous systems are everywhere. We push the frontier of intelligent systems by
+- making systems that recover from the unexpected scenarios,
+- reducing reliance on human intervention and human expertise,
+- enabling smarter decision-making in high-stakes, real­-time scenarios, and 
+- bridging theory and application — hybridizing classical control design with cutting-edge learning for truly resilient performance.
 
 <!-- 
 Control of Cyber-Physical Systems
