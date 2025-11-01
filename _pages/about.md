@@ -71,6 +71,21 @@ permalink: /about/
 </div>
 {% endif %}
 
+<!--
+<div class="jumbotron">
+  <h3>Teaching</h3>
+  <ul>
+    <li>Introduction to Physics (1961--63) <a href="https://www.feynmanlectures.caltech.edu/">Textbook here!</a></li>
+    <li>ENME 221: Dynamics</li>
+    <li>ENME 303: Computational Methods for Engineers</li>
+    <li>ENME 403: Automatic Controls</li>
+    <li>ENME 605: Advanced Control Systems</li>
+    <li>ENME 664: Dynamics</li>
+  </ul>
+</div>
+-->
+
+
 <div class="jumbotron">
   <h4>Sponsors</h4>
   <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
@@ -78,14 +93,3 @@ permalink: /about/
   </div>
 </div>
 
-<div class="jumbotron">
-  <h3>Teaching</h3>
-  <ul>
-    <li>Introduction to Physics (1961--63) <a href="https://www.feynmanlectures.caltech.edu/">Textbook here!</a></li>
-    <li>ENME 221: Dynamics</li>
-    <li>ENME 303: Computational Methods</li>
-    <li>ENME 403: Automatic Controls</li>
-    <li>ENME 605: Advanced Control Systems</li>
-    <li>ENME 662: Dynamics</li>
-  </ul>
-</div>
