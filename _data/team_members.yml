@@ -22,6 +22,36 @@
   email: mmirtab1@umbc.edu
   #website: https://japaredes.github.io/
 
+- name: Alex Dorsey 
+  photo: Alex.jpg
+  info: Undergraduate Researcher, started Spring 2024
+  email: adorsey4@umbc.edu
+  #website: https://japaredes.github.io/
+
+- name: Maximilian Moody
+  photo: Maximillian.jpeg
+  info: Undergraduate Researcher, started Summer 2025
+  email: mmoody3@umbc.edu
+  #website: https://japaredes.github.io/
+
+- name: Olvin Moran
+  photo: Olvin.jpeg
+  info: Undergraduate Researcher, started Summer 2025
+  email: omoran1@umbc.edu
+  #website: https://japaredes.github.io/
+
+- name: Aidan Fleischer
+  #photo: Olvin.jpeg
+  info: Undergraduate Researcher, started Spring 2025
+  email: afleisc1@umbc.edu
+  #website: https://japaredes.github.io/
+
+- name: Ian Wright
+  photo: Ian-Wright.JPEG
+  info: Undergraduate Researcher, started Fall 2025
+  email: iwright1@umbc.edu
+  #website: https://japaredes.github.io/
+
 #- name: "This could be you !"
 #  photo: rock.jpg
 #  info: See <a href="www">openings</a> for more info
