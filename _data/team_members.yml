@@ -4,7 +4,23 @@
   email: japarede@umbc.edu
   website: https://japaredes.github.io/
 
+- name: Jhon Manuel Delgado Portella
+  photo: Jhon.png
+  info: PhD Candidate, started Spring 2022
+  email: jportel1@umbc.edu
+  #website: https://japaredes.github.io/
 
+- name: Parham Oveissi
+  photo: Parham.jpg
+  info: PhD Candidate, started Fall 2022
+  email: parhamo1@umbc.edu
+  #website: https://japaredes.github.io/
+
+- name: Mohammad Mirtaba 
+  photo: mirtaba.jpg
+  info: PhD Candidate, started Fall 2023
+  email: mmirtab1@umbc.edu
+  #website: https://japaredes.github.io/
 
 #- name: "This could be you !"
 #  photo: rock.jpg
