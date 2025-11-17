@@ -31,6 +31,8 @@ nav_pages:
   - name: talks
   - name: research
   - name: about
+  - name: join-us
+    label: "Join ECLL"
   
 
 include:

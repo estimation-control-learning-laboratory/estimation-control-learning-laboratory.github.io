@@ -29,6 +29,15 @@ Autonomous systems are everywhere. We push the frontier of intelligent systems b
 - enabling smarter decision-making in high-stakes, real­-time scenarios, and 
 - bridging theory and application — hybridizing classical control design with cutting-edge learning for truly resilient performance.
 
+
+
+
+<!-- 2025_11_16 - Run the following commands to build and serve the site locally:
+bundle exec jekyll build
+start .\_site\index.html
+bundle exec jekyll serve --livereload
+>
+
 <!-- 
 Control of Cyber-Physical Systems
 
