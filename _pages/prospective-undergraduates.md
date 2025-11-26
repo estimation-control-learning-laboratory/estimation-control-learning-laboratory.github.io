@@ -52,22 +52,23 @@ Continued involvement depends on demonstrated progress, not intentions.
 
 If your goal is only to build your résumé or “get research experience,” but you are not truly interested in the topic, then a research position is unlikely to be a good fit. There are many other ways to strengthen your academic profile such as coursework, design teams, internships, and independent projects.
 
-## Prospective Undergraduate Researchers
+<hr style="border: 0; height: 4px; background: #59ff00ff;">
+## How to Apply
 
 We welcome enthusiastic undergraduates who want to gain experience in research, engineering, and control systems.
 
-What we look for:
+What we look for
 - Strong coursework in control, dynamics, math, programming, etc. or relevant courses
 - Programming experience with MATLAB, Python, or C/C++ (simulation/testing experience welcome)
 - Interest in hands-on hardware (UAVs, multicopters, testbeds) and simulation development
 - A willingness to learn and collaborate on research teams
 
-Opportunities:
+Opportunities
 - Independent study / research credit
 - Paid research positions when funding is available
 - Short-term project collaborations and senior design involvement
 
-How to apply:
+How to apply
 - Send an email to Dr. Ankit Goel at ankgoel@umbc.edu with a short note about your interests, GPA/transcript, and résumé
 - If possible, include a short description of relevant projects (class projects, independent work, or internships)
 
@@ -75,15 +76,15 @@ We evaluate candidates on a rolling basis and will respond to inquiries with nex
 
 We look forward to hearing from motivated students who are excited about control, learning, and autonomy!
 
-
+<hr style="border: 0; height: 4px; background: #59ff00ff;">
 
 <!-- 
 ## Opportunities for Undergraduate Students
 
 UMBC undergraduate students interested in gaining research experience in control, estimation, robotics, or autonomous systems are welcome to reach out. The lab offers opportunities for involvement in experimental hardware testbeds, data analysis, and simulation projects.
-<!-- - independent study or research credits (ENME 499 / HONR research),  paid research positions when funding is available, and  -->
+- independent study or research credits (ENME 499 / HONR research),  paid research positions when funding is available, and  
 
-<!-->
+
 **Ideal undergraduate applicants** should have strong academic performance, curiosity about systems and control, and some experience with MATLAB, Python, or basic electronics/robotics.
 
 **To inquire**, please email Dr. Goel (ankgoel[at]umbc.edu) with:  
@@ -91,6 +92,6 @@ UMBC undergraduate students interested in gaining research experience in control
 - an unofficial transcript, and  
 - a résumé or CV.
 
-Positions are competitive, and opportunities depend on project needs and available mentoring capacity, but motivated students are always encouraged to reach out. >
+Positions are competitive, and opportunities depend on project needs and available mentoring capacity, but motivated students are always encouraged to reach out. -->
 
 
