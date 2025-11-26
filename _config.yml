@@ -33,6 +33,8 @@ nav_pages:
   - name: about
   - name: join-us
     label: "Join ECLL"
+  - name: prospective-undergraduates
+    label: "Prospective Undergraduates"
   
 
 include:
