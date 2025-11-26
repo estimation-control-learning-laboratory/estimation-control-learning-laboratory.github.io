@@ -12,8 +12,15 @@ It requires consistent self-driven effort, a willingness to explore unfamiliar m
 
 ### Motivation Must Come From You
 Faculty can guide, mentor, and support you, but we cannot create your interest in a topic. 
-Successful undergraduate researchers are those who already have a genuine desire to understand and explore advanced concepts.
+Successful researchers have a genuine desire, curiosity, and motivation to understand and explore advanced concepts.
 If you are not excited about the topic on your own, research will feel slow and frustrating.
+
+### Perseverance Is Essential
+Research rarely moves in a straight line. Experiments fail, code breaks, results do not make sense, and progress can feel slow or uncertain.
+Successful research requires pushing forward despite these setbacks.
+**Perseverance**, showing up, trying again, and being willing to troubleshoot difficult problems, is what separates meaningful research experiences from short-lived attempts.
+If you are easily discouraged by obstacles, research will become overwhelming. 
+If you embrace challenges with patience and determination, you will grow rapidly as an independent thinker.
 
 ### Research Requires Independent Effort
 
