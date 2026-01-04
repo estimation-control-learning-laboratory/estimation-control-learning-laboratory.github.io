@@ -7,7 +7,7 @@ permalink: /
 
 ## Welcome!
 
-At **Estimation, Control. and Learning Laboratory (ECLL)**, we design intelligent and adaptive controllers and estimators that thrive in unpredictable, real-world environments. We blend control theory, optimization, and machine learning to make robots, drones, and autonomous systems smarter, faster, and more robust.
+At **Estimation, Control. and Learning Laboratory (CELL)**, we design intelligent and adaptive controllers and estimators that thrive in unpredictable, real-world environments. We blend control theory, optimization, and machine learning to make robots, drones, and autonomous systems smarter, faster, and more robust.
 
 ### What We Do
 **Control of complex cyber-physical systems**
@@ -46,8 +46,8 @@ Our research focuses on developing advanced control strategies for complex cyber
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/ECLL-2025.png" width="100%" alt="ECLL lab photo"/><br/>
-Estimation, Control, and Learning Laboratory (ECLL) — lab photo.
+<img src="{{ site.url }}{{ site.baseurl }}/images/CELL-2025.png" width="100%" alt="CELL lab photo"/><br/>
+Estimation, Control, and Learning Laboratory (CELL) — lab photo.
 </center>
 </div>
 </div>
@@ -55,7 +55,7 @@ Estimation, Control, and Learning Laboratory (ECLL) — lab photo.
 
 ### About me
 
-I am an Assistant Professor of Mechanical Engineering at the University of Maryland, Baltimore County (UMBC), where I direct the Estimation, Control, and Learning Laboratory (ECLL).
+I am an Assistant Professor of Mechanical Engineering at the University of Maryland, Baltimore County (UMBC), where I direct the Estimation, Control, and Learning Laboratory (CELL).
 My research focuses on developing data-driven and learning-based control and estimation techniques for complex mechanical and aerospace systems.
-At ECLL, we integrate tools from linear and nonlinear system theory, optimization, and machine learning to create adaptive algorithms that enable robust, real-time decision-making in uncertain and dynamic environments. Our work spans a range of applications, including robotics, autonomous systems, and unmanned aerial vehicles (UAVs).
+At CELL, we integrate tools from linear and nonlinear system theory, optimization, and machine learning to create adaptive algorithms that enable robust, real-time decision-making in uncertain and dynamic environments. Our work spans a range of applications, including robotics, autonomous systems, and unmanned aerial vehicles (UAVs).
 -->

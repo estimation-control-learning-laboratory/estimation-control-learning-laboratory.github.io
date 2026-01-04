@@ -36,7 +36,7 @@ We are always looking for highly motivated graduate and undergraduate students t
 - Opportunities to work on cutting-edge problems at the intersection of control theory, machine learning, and autonomy with real-world impact  
 
 #### How to Apply
-Please submit the following materials in a single PDF to Dr. Ankit Goel (ankgoel[at]umbc.edu) with the subject line: **“PhD Application – ECLL”**:
+Please submit the following materials in a single PDF to Dr. Ankit Goel (ankgoel[at]umbc.edu) with the subject line: **“PhD Application – CELL”**:
 - A cover letter describing your research interests, background, and motivation for this position  
 - A CV including academic record, relevant coursework/projects, and programming/testbed experience  
 - Contact information for at least two academic or professional references  
@@ -65,7 +65,7 @@ Taking the time to identify a good match will set you up for a far more producti
 
 
 <!--
-title: "Join ECLL"
+title: "Join CELL"
 ## Join the Estimation, Control, and Learning Laboratory (CELL)
 
 We're always interested in hearing from motivated students and researchers.

@@ -1,5 +1,5 @@
 # Site settings
-title: ECLL
+title: CELL
 email: ankgoel@umbc.edu
 description: Academic webpage of the Control, Estimation and Learning Laboratory (CELL)
 url: "https://estimation-control-learning-laboratory.github.io"
@@ -32,7 +32,7 @@ nav_pages:
   - name: research
   - name: about
   - name: join-us
-    label: "Join ECLL"
+    label: "Join CELL"
   - name: prospective-undergraduates
     label: "Prospective Undergraduates"
   
