@@ -7,7 +7,7 @@ permalink: /
 
 ## Welcome!
 
-At **Estimation, Control. and Learning Laboratory (CELL)**, we design intelligent and adaptive controllers and estimators that thrive in unpredictable, real-world environments. We blend control theory, optimization, and machine learning to make robots, drones, and autonomous systems smarter, faster, and more robust.
+At **Control, Estimation, and Learning Laboratory (CELL)**, we design intelligent and adaptive controllers and estimators that thrive in unpredictable, real-world environments. We blend control theory, optimization, and machine learning to make robots, drones, and autonomous systems smarter, faster, and more robust.
 
 ### What We Do
 **Control of complex cyber-physical systems**
