@@ -30,7 +30,6 @@ nav_pages:
   - name: publications
   - name: talks
   - name: research
-  - name: about
   - name: join-us
     label: "Join CELL"
   - name: prospective-undergraduates
