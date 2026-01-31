@@ -30,7 +30,7 @@ iframe {
 }
 </style>
 
-## Research
+# Current Research Projects
 
 <!-- ### Projects -->
 
