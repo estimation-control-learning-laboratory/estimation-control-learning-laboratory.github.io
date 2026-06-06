@@ -11,6 +11,18 @@ We are always looking for highly motivated graduate and undergraduate students t
 - designing and building intelligent autonomous systems, and  
 - bridging theory and application through creative numerical experimentation.
 
+#### What Research Means in Our Group
+
+In our group, research does not mean simply reading papers, watching tutorials, or learning more facts about a topic. Those activities are important, but they are preparation for research rather than research itself. Research begins when knowledge is turned into technical work that produces evidence, results, or insight.
+
+Research in CELL usually involves one or more of the following activities.
+
+* Learning methods developed by others and implementing them on standard problems to build basic technical competence.
+* Applying existing methods to the research problems studied in the group, where the goal is to generate new results, identify limitations, or demonstrate performance in a challenging setting.
+* Developing new methods or modifying existing ones and testing them on challenging problems where current approaches may not be sufficient.
+
+The expected outcome of research is not a summary of what was read. The expected outcome is a working implementation, simulation result, experiment, comparison, analysis, plot, codebase, technical explanation, or manuscript-quality result. Reading is necessary, but research requires doing: formulating a problem, implementing an approach, testing it carefully, interpreting the results, and communicating what was learned.
+
 <hr style="border: 0; height: 4px; background: #59ff00ff;">
 
 #### Research Directions for Graduate Students (examples)
