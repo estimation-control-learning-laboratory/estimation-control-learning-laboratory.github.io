@@ -71,13 +71,14 @@ The project aims to develop a learning-based adaptive control system for regulat
 - Khokhar, G. T., McBeth, J., Hanquist, K. M., Oveissi, P., and Goel, A., “Investigation of Solid Fuel Ramjets Using Analytical Theory and Computational Fluid Dynamics,” AIAA SciTech 2025 Forum, AIAA Paper 2025-0392, January 2025. DOI: [https://doi.org/10.2514/6.2025-0392](https://doi.org/10.2514/6.2025-0392)
 - Oveissi, P., Dorsey, A., McBeth, J., Hanquist, K. M., and Goel, A., “Learning-Based Thrust Regulation of Solid-Fuel Ramjet in Flight Conditions,” AIAA SciTech 2025 Forum, AIAA Paper 2025-2805, January 2025. DOI: [https://doi.org/10.2514/6.2025-2805](https://doi.org/10.2514/6.2025-2805)
 - DeBoskey, R., Oveissi, P., Narayanaswamy, V., and Goel, A., “An In-Situ Solid Fuel Ramjet Thrust Monitoring and Regulation Framework Using Neural Networks and Adaptive Control,” 2025 IEEE Conference on Control Technology and Applications (CCTA), IEEE, August 2025, pp. 377–382. DOI: [10.1109/CCTA53793.2025.11151497](10.1109/CCTA53793.2025.11151497)
-- [Accepted] Dorsey, A., Oveissi, P., Barton, J. D., and Goel, A., “Swarm-optimized Adaptive Augmentation of Missile Autopilot,” AIAA SciTech 2026 Forum, January 2026.
-- [Accepted] Dorsey, A., and Goel, A., “Feedback Linearization-based Guidance Law for Guaranteed Interception,” AIAA SciTech 2026 Forum, January 2026.
-- [Accepted] Oveissi, P., Khokhar, G. T., Hanquist, K. M., and Goel, A., “Thrust Regulation in a Solid Fuel Ramjet using Dynamic Mode Adaptive Control,” AIAA SciTech 2026 Forum, January 2026.
-- [Accepted] McBeth, J., Hanquist, K. M., Oveissi, P., and Goel, A., “RANS-Fidelity Modeling and Control of Solid Fuel Ramjets,” AIAA SciTech 2026 Forum, January 2026.
-- [Under review] Khokhar, G. T., Hanquist, K. M., Oveissi, P., and Goel, A., “Computational Modeling and Learning-Based Adaptive Control of Solid-Fuel Ramjets,” AIAA Journal.
-- [Under review] DeBoskey, R., Oveissi, P., Narayanaswamy, V., and Goel, A., “Evaluation of In-situ Adaptive Thrust Monitoring and Regulation Framework for Solid-Fuel Ramjets,” AIAA Journal.
+- Dorsey, A., Oveissi, P., Barton, J. D., and Goel, A., “Swarm-optimized Adaptive Augmentation of Missile Autopilot,” AIAA 2026-2164. AIAA SCITECH 2026 Forum. DOI:[https://doi.org/10.2514/6.2026-2164]
+- Dorsey, A., and Goel, A., "Feedback Linearization-based Guidance Law for Guaranteed Interception," AIAA 2026-1587. AIAA SCITECH 2026 Forum. January 2026. DOI:[https://doi.org/10.2514/6.2026-1587]
+- Oveissi, P., Khokhar, G. T., Hanquist, K. M., and Goel, A., “Thrust Regulation in a Solid Fuel Ramjet using Dynamic Mode Adaptive Control,” AIAA 2026-1389. AIAA SCITECH 2026 Forum. January 2026. DOI:[https://doi.org/10.2514/6.2026-1389]
+- McBeth, J., Hanquist, K. M., Oveissi, P., and Goel, A., “RANS-Fidelity Modeling and Control of Solid Fuel Ramjets,” AIAA 2026-1583. AIAA SCITECH 2026 Forum. January 2026. DOI:[https://doi.org/10.2514/6.2026-1583]
+- DeBoskey, R., Oveissi, P., Narayanaswamy, V., and Goel, A., “Evaluation of In-situ Adaptive Thrust Monitoring and Regulation Framework for Solid-Fuel Ramjets,” AIAA Journal 2026 64:6, 3624-3632.
+- Oveissi, P., DeBoskey, R., Narayanaswamy, V., and Goel, A., "Adaptive Thrust Regulation in Solid Fuel Ramjet With Variable Goemetry Inlet," AIAA 2026-1388. AIAA SCITECH 2026 Forum. January 2026. DOI:[https://doi.org/10.2514/6.2026-1388]
 - [In preparation] Dorsey, A., and Goel, A., “A Generalized Guidance Law for Missile Interception,” Journal of Guidance, Navigation, & Control.
+- [Under review] Khokhar, G. T., Hanquist, K. M., Oveissi, P., and Goel, A., “Computational Modeling and Learning-Based Adaptive Control of Solid-Fuel Ramjets,” AIAA JSR.
 
 </div>
 </div>
